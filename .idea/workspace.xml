@@ -2,434 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rxjavaS/impl/BehaviorRelay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/AbstractThemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/Binary/BinarySimpleKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/FromJtoK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/Insertion/InsertionAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/Merge/MergeAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/Quick/QuickB$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/Quick/QuickB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Algorithms/Quick/QuickKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ComputerKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc3$Companion$getBestSixty$$inlined$sortedBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc3$Companion$sortModules$$inlined$sortedByDescending$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc3$Companion$sortModules$$inlined$sortedByDescending$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc3$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc3Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc4$Companion$getBestSixty$$inlined$sortedBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc4$Companion$sortModules$$inlined$sortedByDescending$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc4$Companion$sortModules$$inlined$sortedByDescending$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc4$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calc4Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcDec$Companion$getBestSixty$$inlined$sortedBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcDec$Companion$sortModules$$inlined$sortedByDescending$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcDec$Companion$sortModules$$inlined$sortedByDescending$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcDec$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcDec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcDecKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalcTestKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calculator$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/CalculatorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/Module.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/ModuleBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/ModuleExtractor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/ModuleExtractorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Calc/TestCalcMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/CompanionBobjects/CompObjExAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/CompanionBobjects/Decorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/CompanionBobjects/Person$Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/CompanionBobjects/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/CompanionBobjects/User$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/CompanionBobjects/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Atomek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Bolek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/BolekILolekKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Bolo$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Bolo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Document.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Friend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Lolek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/MultipleVsFactoryKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/NamedDefaultParKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Ola.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/RadioButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Romek$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Romek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Tola$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Tola.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/Tomek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/UserA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/UserB$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Constructors/UserB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Debugging/SortMixKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Debugging/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Decorator_innerSet/CountingSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Decorator_innerSet/InnerSetEx1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/AirplaneImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/CarImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/CarOrAirplane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/CoffeeMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/CoffeeModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/CounterList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/DelegationAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/DelegationBKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/DelegationCKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/ElectricHeater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/Heater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/MyDripCoffeeModule$Companion$electricHeater$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/MyDripCoffeeModule$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/MyDripCoffeeModule$_thermosiphon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/MyDripCoffeeModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/Pump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/Thermosiphon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/DelegatedProperties/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumJ$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumK$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr$BLUE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/Duck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/ExtensionFCheatSheetKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/InflixExKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/InheritanceProblemKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/News.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/ExtensionsFunct/OperatorOverloadKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Generics/CustomList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Generics/NameList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Inline/Cent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Inline/Inch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Inline/SimpleInlineExKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/ApplyWithKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/FilterKt$main$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/FilterKt$main$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/FilterKt$main$constructPerson$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/FilterKt$main$getAge$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/FilterKt$main$isAdult$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/FilterKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/GroupMapKt$main$ldy_list2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/GroupMapKt$main$ldy_list2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/GroupMapKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/LambdaKt$getCust$$inlined$sortedBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/LambdaKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/Pancake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/Recipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/SequenceOperationsKt$main$ldy_list2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/SequenceOperationsKt$main$ldy_list2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/SequenceOperationsKt$main$num_to_1024$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/SequenceOperationsKt$main$numsL$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/SequenceOperationsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/Swimmer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/LambdaStreams/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Loops/IteratorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Loops/LoopBreaksKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Loops/LoopsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Loops/WhenKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/ChainingKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/NullBasiscsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/NullExKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/NullPropKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/SafeCastKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Nullability/ServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/AnonymObject$perf$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/AnonymObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Bike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Container.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/FastOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Interface1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/JetCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/MapsKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/MapsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Motorcycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/PersonJ$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/PersonJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/PersonK$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/PersonK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Plain$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Plain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/SealedKt$extractText$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/SealedKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/StringsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/SwitchJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/TypeliasExKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/TypeliasExKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/TypeliasExKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/UserK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/VarargsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Vehicle$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Other/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/FragmentA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/SingletonExample$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/SingletonExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/SingletonWithParameter$Companion$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/SingletonWithParameter$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Singletons/SingletonWithParameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$$inlined$compareBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$$inlined$sortedBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$$inlined$sortedByDescending$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$$inlined$thenBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$filteredBoxListA$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$filteredBoxListA$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt$iterExample$filteredBoxListD$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/ColsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/collections/testColJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/SimpleCoroutinesBuilderKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/SimpleThreads$runWithJoin$comp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/SimpleThreads$runWithTwoSleeps$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/SimpleThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/SimpleThreadsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DarkDrawer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DarkThemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DarkToolbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterA/BusinessCardDesigner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterA/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterA/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterA/EmployeeClassAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterA/EmployeeObjectAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterA/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/AdapterTestKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/SocketAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/SocketObjectAdapterImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/SocketObjectAdapterImplJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/UKPlug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/USPlug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterB/Volt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterC/AbstractEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterC/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterC/GreenEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/AdapterC/GreenEngineAdapterA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Builder/Computer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Builder/Computer$CompBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Builder/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Builder/ComputerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/AsiaOrderHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/CorAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/EuroOrderHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/OrderHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/OrderHandlerAbstract$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/OrderHandlerAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ChainOfResponsibility/PacificOrderHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/CloseEyeCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/MoveHandDownCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/MoveHandUpCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/MovementCoordinator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/OpenEyeCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/RobotArm$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/RobotArm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/RobotArmKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Command/RobotEye.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/AbstractMobileDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/CPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/DecoratorAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/MobileDevice$OS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/MobileDevice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/MobileDeviceDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/MobilePhoneBasic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Decorator/MobilePhoneLargeScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/AbstractCPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/CPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/CPUFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/CpuDiagnosticTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/DiagnosticTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/FlyweightAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/MultiCoreCPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Flyweight/SingleCoreCPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ObserverA/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ObserverA/Observer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ObserverA/Observer$Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ObserverA/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ObserverA/Subscriber$Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/ObserverA/Subscriber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/AbstractComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/BreadKnive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/CPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/ChefKnive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/Computer$OS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/Knive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/KniveCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Prototype/PrototypeAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/AbstractProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/CPUFactory2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/CpuDiagnostics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/Diagnostics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/FlyweightWithProxyKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/MultiCoreProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/ProxyProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Proxy/SingleCoreProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/State/BaseFragment$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/State/BaseFragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/State/Fragment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/State/FragmentA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/State/FragmentB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/State/StatePatternKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Drawer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FactoryProvider$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FactoryProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/File/FileReaderJ$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/File/FileReaderJ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/File/Joiner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/AlsoLetRunWithApplyKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Amd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Bike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ByLazyKt$main$i$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ByLazyKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/ElementMarker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/NullableFunctionsKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/NullableFunctionsKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/NullableFunctionsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/Part$renderAttributes$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/DSLs/Part.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$joinToStringDefVal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ExtensionBKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$inOpC$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d3a0$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d3a1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d4a$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d4b$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d4c$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$main$d4d$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$opInA$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$opInB$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt$opInC$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPCheatSheetKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$avrNull$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$avrExp1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$avrExp2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$gv1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$gv2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$gv3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$main$gv4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$report$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt$reportExpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPEx1Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$joinedToString$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$product$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt$main$sum1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FPsamplesKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FunList$Cons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FunList$Nil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FunList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FunToFunKt$getDistanceCalculator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FunToFunKt$getDistanceCalculator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/FunToFunKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/LazyInit$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/LazyInit$LazyHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/LazyInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ListListKt$main$mv1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ListListKt$main$mv2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ListListKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/LoopsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Op.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/OperatorsKt$main$sumFromInt$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/OperatorsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/PureList$Cons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/PureList$Nil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/PureList$forEach$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/PureList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/PureListKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/SandpitKt$main$opRa$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/SandpitKt$main$opRb$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/SandpitKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/ServiceUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/Trip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt$main$intList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt$main$res1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt$main$res1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt$main$res2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt$main$valList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt$main$vl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FunctionalProgramming/VarargsLambdaKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LightDrawer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LightThemeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LightToolbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LocalFunctionCompare/UserA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LocalFunctionCompare/UserAKt$saveUser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LocalFunctionCompare/UserAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LocalFunctionCompare/UserB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LocalFunctionCompare/UserBKt$validateBeforeSave$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LocalFunctionCompare/UserBKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlinStudy.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/ClientA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/ClientB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/ClientC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/ObjectOrientedAKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/SportCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/OOP/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Reactive/ObserveOnExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Reactive/ObserveOnFromCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/BasicKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/IntRecursionsKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/RecursionA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/RecursionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Streams/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Streams/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Streams/NotNullExampleKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Toolbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/ArrayLeftRotationKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/CompressStringKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/CountingVallyes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/Counting_ValleysKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/InsDelChkOneEditKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/IsUniqueKt.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -463,11 +37,42 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/Errors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/TakeOperators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>inline</find>
+      <find>flatMap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -481,14 +86,15 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/FunctionalProgramming/ExtensionB.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/FunctionalProgramming/Inline/SimpleInlineEx.kt" />
         <option value="$PROJECT_DIR$/src/main/java/rxjavaS/impl/ColdHot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rxjavaS/impl/BehaviorRelay.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1726" />
-    <option name="y" value="68" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -498,8 +104,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kotlinStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlinStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlinStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlinStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlinStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinStudy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
@@ -509,7 +151,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553161442707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553707564339" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -561,9 +203,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2556391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -593,13 +235,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Reactive/ObserveOnExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -660,6 +295,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/Buffering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/Call.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/BehaviorRelay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/Errors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Reactive/ObserveOnExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/TakeOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
