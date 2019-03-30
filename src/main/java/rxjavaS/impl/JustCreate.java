@@ -8,10 +8,11 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.observables.ConnectableObservable;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Launcher {
+public class JustCreate {
     public static void main(String[] args) {
         //justObs();
         //createObs();
@@ -58,19 +59,52 @@ public class Launcher {
         });
         source1.map(s -> s.length() + 5).subscribe(System.out::println);
 
+
+
+        List<String> taskList = Arrays.asList("Task One", "Task One", "Task One", "Task One", "Task One");
         Observable<String> source2 = Observable.create(emitter -> {
             try {
-                emitter.onNext("Task One");
-                emitter.onNext("Task Two");
-                emitter.onNext("Task Three");
-                emitter.onNext("Task Four");
-                emitter.onNext("Task Five");
+                taskList.forEach(emitter::onNext);
                 emitter.onComplete();
             } catch (Throwable e) {
                 emitter.onError(e);
             }
         });
         source2.map(s -> s.length() - 5).subscribe(System.out::println);
+
+
+        // stream item pre-defined, subscription with an Observer object
+        String userA = "UserA";
+        Observable<String> source3 = Observable.create(new ObservableOnSubscribe<String>() {
+            @Override
+            public void subscribe(ObservableEmitter<String> emitter) throws Exception {
+                if(!emitter.isDisposed()){
+                    emitter.onNext(userA);
+                    emitter.onComplete();
+                }
+            }
+        });
+        source3.subscribe(new Observer<String>() {
+            @Override
+            public void onSubscribe(Disposable d) {
+
+            }
+
+            @Override
+            public void onNext(String s) {
+                System.out.println(s);
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onComplete() {
+
+            }
+        });
 
     }
 
