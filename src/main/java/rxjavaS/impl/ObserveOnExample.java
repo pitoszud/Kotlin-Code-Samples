@@ -1,12 +1,16 @@
 package rxjavaS.impl;
 
 import io.reactivex.Observable;
+import io.reactivex.Observer;
+import io.reactivex.Scheduler;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 import java.net.URL;
 import java.time.LocalTime;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.concurrent.Callable;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -16,7 +20,9 @@ public class ObserveOnExample{
 
         //observerOnWithFlatMapA();
         //observerOnWithFlatMapB();
-        observerOnWithFlatMapC();
+        //observerOnWithFlatMapC();
+
+        observeOnFromCallable();
 
         //observeOnWithFromCallable();
     }
@@ -93,8 +99,41 @@ public class ObserveOnExample{
                 getResponse("https://api.github.com/users/thomasnield/starred"))
                 .subscribeOn(Schedulers.io())
                 .subscribe(System.out::println);
-
         sleep(10000);
+    }
+
+
+    public static void observeOnFromCallable(){
+        Observable<Student> callable = Observable
+                .fromCallable(new Callable<Student>(){
+                    @Override
+                    public Student call() throws Exception {
+                        return DummyDatabase.getInstance().getStudent(1);
+                    }
+                })
+                .subscribeOn(Schedulers.io());
+
+        callable.subscribe(new Observer<Student>() {
+            @Override
+            public void onSubscribe(Disposable d) {
+
+            }
+
+            @Override
+            public void onNext(Student student) {
+                System.out.println(student.toString());
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onComplete() {
+
+            }
+        });
     }
 
 
