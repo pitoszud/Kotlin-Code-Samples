@@ -10,6 +10,7 @@ import io.reactivex.observables.ConnectableObservable;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
 
 public class JustCreate {
@@ -17,7 +18,7 @@ public class JustCreate {
         //justObs();
         //createObs();
         //onNextMethod();
-        fromCallableMethod();
+        fromCallableMethod("Adam");
     }
 
     public static void justObs(){
@@ -155,10 +156,16 @@ public class JustCreate {
     }
 
 
-    public static void fromCallableMethod(){
-        String str = null;
-        Observable.fromCallable(() -> str.equals("A"))
-                .subscribe(i -> System.out.println("received: " + i), e -> System.err.println("Err: " + e));
+    // fromCallable can executes a method in the background thread and return a result.
+    // It will only execute the method once a subscriber has subscribed.
+
+    public static void fromCallableMethod(String name){
+        Observable.fromCallable(new Callable<Boolean>() {
+            @Override
+            public Boolean call() throws Exception {
+                return name.equals("Adam");
+            }
+        }).subscribe(i -> System.out.println("received: " + i), e -> System.err.println("Err: " + e));
     }
 
 
