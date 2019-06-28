@@ -140,9 +140,9 @@ fun asyncAwaitExampleContext() = runBlocking {
 
     val startTime = System.currentTimeMillis()
 
-    val resultContext1: String = withContext(Dispatchers.Default) { fetchUserData(userId) } // blocking
-    val resultContext2: String = withContext(Dispatchers.Default) { fetchWeather(1.12, 0.15) } // blocking
-    val resultContext3: String = withContext(Dispatchers.Default) { fetchUserExtraData(userId) } // blocking
+    val resultContext1: String = withContext(Dispatchers.IO) { fetchUserData(userId) } // blocking (IO - network)
+    val resultContext2: String = withContext(Dispatchers.IO) { fetchWeather(1.12, 0.15) } // blocking (IO - network)
+    val resultContext3: String = withContext(Dispatchers.Default) { fetchUserExtraData(userId) } // blocking (Main / Default - local)
 
     val resultContext = "$resultContext1 $resultContext2 $resultContext3" // concurrent
     println(resultContext)
