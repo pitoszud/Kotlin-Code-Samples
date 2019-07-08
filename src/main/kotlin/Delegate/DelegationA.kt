@@ -1,4 +1,4 @@
-package Core.DelegatedProperties
+package Delegate
 
 
 interface A{
