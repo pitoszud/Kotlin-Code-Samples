@@ -3,7 +3,6 @@ package Coroutines
 import kotlinx.coroutines.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
-import kotlin.coroutines.Continuation
 import kotlin.coroutines.suspendCoroutine
 
 
@@ -15,7 +14,7 @@ fun main() {
     //blockingLocalDispatch()
     //blockingLocalCustomDispatch()
     //asyncAwaitExampleA()
-    asyncAwaitExampleContext()
+    blockingAsyncAwait()
 }
 
 
@@ -115,7 +114,7 @@ fun blockingLocalCustomDispatch() = runBlocking{
 
 
 
-fun asyncAwaitExampleA() = runBlocking {
+fun concurrentAsyncAwait() = runBlocking {
     val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
     println("$userId returned")
@@ -133,7 +132,23 @@ fun asyncAwaitExampleA() = runBlocking {
 }
 
 
-fun asyncAwaitExampleContext() = runBlocking {
+// all coroutines must complete before concurrentScope returns
+
+suspend fun concurrentScope(){
+
+    coroutineScope {
+        val userId: String = async { fetchUser("pitos007@gmail.com") }.await() // blocking
+
+        val res0: Deferred<String> = async { fetchUser("pitos007@gmail.com")} // concurrent
+        val res1: Job = launch { fetchWeather(1.12, 0.15) } // concurrent
+        val res2: Job = launch { fetchWeather(2.34, 4.61) } // concurrent
+
+        val res3: String = async { fetchUserExtraData(userId) }.await() // blocking
+    }
+}
+
+
+fun blockingAsyncAwait() = runBlocking {
     val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
     println("$userId returned")
@@ -159,6 +174,10 @@ fun asyncAwaitExampleContext() = runBlocking {
     val endTime = System.currentTimeMillis()
     println("Run time: ${endTime - startTime}")
 }
+
+
+
+
 
 
 
