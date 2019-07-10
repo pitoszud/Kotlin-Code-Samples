@@ -14,7 +14,8 @@ fun main() {
     //blockingLocalDispatch()
     //blockingLocalCustomDispatch()
     //asyncAwaitExampleA()
-    blockingAsyncAwait()
+    //blockingAsyncAwait()
+    concurrentScope()
 }
 
 
@@ -134,24 +135,25 @@ fun concurrentAsyncAwait() = runBlocking {
 
 // all coroutines must complete before concurrentScope returns
 
-suspend fun concurrentScope(){
+fun concurrentScope() = runBlocking{
 
     coroutineScope {
         val userId: String = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
         val res0: Deferred<String> = async { fetchUser("pitos007@gmail.com")} // concurrent
-        val res1: Job = launch { fetchWeather(1.12, 0.15) } // concurrent
-        val res2: Job = launch { fetchWeather(2.34, 4.61) } // concurrent
+        println(res0)
 
-        val res3: String = async { fetchUserExtraData(userId) }.await() // blocking
+        launch { fetchWeather(1.12, 0.15) } // concurrent
+        launch { fetchWeather(2.34, 4.61) } // concurrent
+
+        async { fetchUserExtraData(userId) } // blocking
+
     }
 }
 
 
 fun blockingAsyncAwait() = runBlocking {
     val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
-
-    println("$userId returned")
 
     val startTime = System.currentTimeMillis()
 
@@ -160,7 +162,6 @@ fun blockingAsyncAwait() = runBlocking {
     val resultContext3: String = withContext(Dispatchers.Default) { fetchUserExtraData(userId) } // blocking (Main / Default - local)
 
     val resultContext = "$resultContext1 $resultContext2 $resultContext3" // concurrent
-    println(resultContext)
 
 
 //    val resultAsync1 = async { fetchUserData(userId) }.await() // blocking
@@ -198,23 +199,31 @@ suspend fun printDelayed(message: String){
 }
 
 suspend fun fetchWeather(lat: Double, lon: Double): String{
-    delay(1000)
+    delay(500)
+    println("feaching weather data...")
+    delay(500)
     return "Weather at location: $lat, $lon returned ;"
 }
 
 suspend fun fetchUser(userEmail: String): String{
-    delay(1000)
+    delay(500)
+    println("feaching user $userEmail...")
+    delay(500)
     return "12345 "
 }
 
 suspend fun fetchUserData(userId: String): String{
-    delay(1000)
+    delay(500)
+    println("feaching data for user $userId...")
+    delay(500)
     return "data for user: $userId returned ;"
 }
 
 
 suspend fun fetchUserExtraData(userId: String): String{
-    delay(1000)
+    delay(500)
+    println("feaching extra data for user $userId...")
+    delay(500)
     return "Extra data for user: $userId returned ;"
 }
 
