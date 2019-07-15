@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Delegate/property_change_notification.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Delegate/backingProperty_vs_Delegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Delegate/backingProperty_vs_Delegate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Delegate/BackingProperty_vs_DelegateKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Delegate/BackingProperty_vs_DelegateKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Delegate/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Delegate/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Delegate/Subject2$documents$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Delegate/Subject2$documents$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Delegate/Subject2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Delegate/Subject2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Delegate/property_change_notification.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Delegate/property_change_notification.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Delegate/backingProperty_vs_Delegate.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="201">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,20 +61,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/Delegate/property_change_notification.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="297">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
               <folding>
-                <element signature="e#18#98#0" expanded="true" />
+                <element signature="e#18#130#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
             </state>
           </provider>
         </entry>
@@ -139,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/Delegate/ReadOnlyPropertyExample.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Delegate/backingProperty_vs_Delegate.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Coroutines/MvvmExample.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Delegate/property_change_notification.kt" />
       </list>
     </option>
@@ -157,7 +153,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,8 +205,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,22 +237,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutines.ExampleAKt (1)">
+  <component name="RunManager" selected="Kotlin.Delegate.Property_change_notificationKt">
     <configuration name="Concurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rxjavaS.impl.Concurrency" />
-      <module name="kotlinStudy.kotlinStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rxjavaS.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObserveOnExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rxjavaS.impl.ObserveOnExample" />
       <module name="kotlinStudy.kotlinStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -307,13 +290,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Delegate.Property_change_notificationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Delegate.Property_change_notificationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Delegate.Property_change_notificationKt" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt (1)" />
         <item itemvalue="Kotlin.Delegate.BackingProperty_vs_DelegateKt" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt" />
         <item itemvalue="Application.Concurrency" />
-        <item itemvalue="Application.ObserveOnExample" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +329,7 @@
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23122318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23444206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,13 +359,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/Buffering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rxjavaS/impl/Call.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -641,9 +630,6 @@
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.0-M2/6819db96d62f434f962115b22d939a14ad7da58c/kotlinx-coroutines-core-1.3.0-M2-sources.jar!/commonMain/Job.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/SimpleCoroutinesBuilder.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/SimpleThreads.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -692,20 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Delegate/backingProperty_vs_Delegate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/beans/PropertyChangeSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -713,12 +685,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/MvvmExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/SimpleCoroutinesBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="125" column="34" lean-forward="true" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Delegate/backingProperty_vs_Delegate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Delegate/property_change_notification.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="297">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
           <folding>
-            <element signature="e#18#98#0" expanded="true" />
+            <element signature="e#18#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
