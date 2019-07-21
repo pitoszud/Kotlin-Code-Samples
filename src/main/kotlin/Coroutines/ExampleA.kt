@@ -45,6 +45,11 @@ fun blockingBackgroundA(){
 }
 
 
+// launch is used for starting a computation that isn't expected to return a specific result.
+
+// async starts a new coroutine and returns a Deferred object, which stores a computation,
+// but it defers the moment of the returning the value/object
+
 fun blockingGlobal() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
@@ -130,6 +135,22 @@ fun concurrentAsyncAwait() = runBlocking {
 
     val endTime = System.currentTimeMillis()
     println("Run time: ${endTime - startTime}")
+}
+
+
+fun awaitAllExample() = runBlocking {
+    val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
+
+    val defferedList: List<Deferred<String>> = listOf(
+        async { fetchUserData(userId) },
+        async { fetchWeather(1.12, 0.15) },
+        async { fetchUserExtraData(userId) }
+    )
+
+
+    val res: List<String> = defferedList.awaitAll().map {
+        it.plus(it)
+    }
 }
 
 
