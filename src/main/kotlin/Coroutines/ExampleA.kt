@@ -3,6 +3,7 @@ package Coroutines
 import kotlinx.coroutines.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
+import kotlin.coroutines.CoroutineContext
 import kotlin.coroutines.suspendCoroutine
 
 
@@ -10,12 +11,13 @@ fun main() {
     //blockingMainA()
     //blockingBackgroundA()
     //blockingGlobal()
+    blockingGlobal2()
     //blockingLocal()
     //blockingLocalDispatch()
     //blockingLocalCustomDispatch()
     //asyncAwaitExampleA()
     //blockingAsyncAwait()
-    concurrentScope()
+    //concurrentScope()
 }
 
 
@@ -34,7 +36,10 @@ fun blockingMainB(){
     println("three")
 }
 
-
+/**
+ * runBlocking blocks the current thread until the execution of the coroutine is completed.
+ *
+ * */
 fun blockingBackgroundA(){
     runBlocking(Dispatchers.Default) {
         println("one - ${Thread.currentThread().name}") // 1. one - DefaultDispatcher-worker-1
@@ -44,12 +49,11 @@ fun blockingBackgroundA(){
 
 }
 
-
-// launch is used for starting a computation that isn't expected to return a specific result.
-
-// async starts a new coroutine and returns a Deferred object, which stores a computation,
-// but it defers the moment of the returning the value/object
-
+/**
+ * launch is used for starting a computation that isn't expected to return a specific result.
+ * Returned Job can be used to cancel its execution or the execution of its children.
+ *
+ * */
 fun blockingGlobal() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
@@ -62,23 +66,29 @@ fun blockingGlobal() = runBlocking{
     job.join() // the runBlocking can finish only after job has finished.
 }
 
-
+/**
+ * Unconfined dispatcher runs coroutine in the current thread,
+ * but resumes in whatever thread is used in the suspending lambda
+ * passed as an argument to coroutine builder.
+ *
+ * */
 fun blockingGlobal2() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
     val job = GlobalScope.launch(Dispatchers.Unconfined) {
-        suspendCoroutine<Unit> {
-
-        }
-
-        printDelayed("two - ${Thread.currentThread().name}") // 3. two - DefaultDispatcher-worker-1
-
+        printDelayed("two - ${Thread.currentThread().name}") // 3. two - main
+        //suspendCoroutine<Unit> {}
+        delay(1_000)
+        printDelayed("three - ${Thread.currentThread().name}") // 4. three - kotlinx.coroutines.DefaultExecutor
     }
 
-    println("three - ${Thread.currentThread().name}") // 2. three - main
+    println("four - ${Thread.currentThread().name}") // 2. four - main
     //delay(3000)
     job.join() // the runBlocking can finish only after job has finished.
 }
+
+
+
 
 
 fun blockingLocal() = runBlocking{
@@ -107,7 +117,7 @@ fun blockingLocalDispatch() = runBlocking{
 fun blockingLocalCustomDispatch() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
-    val customDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
+    val customDispatcher: ExecutorCoroutineDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
 
     launch(customDispatcher) {
         printDelayed("two - ${Thread.currentThread().name}") // 3. two - pool-1-thread-1
@@ -120,15 +130,20 @@ fun blockingLocalCustomDispatch() = runBlocking{
 
 
 
+/**
+ * async is used when result is expected.
+ * It will capture any exception in the coroutine and put it in its result.
+ *
+ * */
 fun concurrentAsyncAwait() = runBlocking {
-    val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
+    val userId1 = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
-    println("$userId returned")
+    println("$userId1 returned")
 
     val startTime = System.currentTimeMillis()
-    val rValue1: Deferred<String> = async { fetchUserData(userId) } // concurrent
+    val rValue1: Deferred<String> = async { fetchUserData(userId1) } // concurrent
     val rValue2: Deferred<String> = async { fetchWeather(1.12, 0.15) } // concurrent
-    val rValue3: Deferred<String> = async { fetchUserExtraData(userId) } // concurrent
+    val rValue3: Deferred<String> = async { fetchUserExtraData(userId1) } // concurrent
 
     val result = "${rValue1.await()} ${rValue2.await()} ${rValue3.await()}"
     println(result)
@@ -202,18 +217,11 @@ fun blockingAsyncAwait() = runBlocking {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/**
+ * Suspending function can suspend their execution without blocking the thread in which they reside.
+ * Suspending function can only be invoked from other suspending function or from coroutines.
+ *
+ * */
 suspend fun printDelayed(message: String){
     delay(1000)
     println(message)
