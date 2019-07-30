@@ -11,13 +11,14 @@ fun main() {
     //blockingMainA()
     //blockingBackgroundA()
     //blockingGlobal()
-    blockingGlobal2()
+    //blockingGlobal2()
     //blockingLocal()
     //blockingLocalDispatch()
     //blockingLocalCustomDispatch()
     //asyncAwaitExampleA()
     //blockingAsyncAwait()
     //concurrentScope()
+    blockingWithCancelAndException()
 }
 
 
@@ -62,8 +63,41 @@ fun blockingGlobal() = runBlocking{
     }
 
     println("three - ${Thread.currentThread().name}") // 2. three - main
-    //delay(3000)
-    job.join() // the runBlocking can finish only after job has finished.
+
+    job.join() // the runBlocking can finish only after job has finished, so adding delay() is not necessary
+    //job.start() // main thread will continue running without waiting for the job to finish.
+}
+
+
+
+fun blockingWithCancelAndException() = runBlocking{
+
+    val exceptionHandler = CoroutineExceptionHandler { context: CoroutineContext, throwable: Throwable ->
+        println("Job cancelled due to ${throwable.message}")
+    }
+
+    println("one - ${Thread.currentThread().name}") // 1. one - main
+
+    val job = GlobalScope.launch(exceptionHandler) {
+        printDelayed("two - ${Thread.currentThread().name}")
+        printDelayed("three - ${Thread.currentThread().name}")
+        printDelayed("four - ${Thread.currentThread().name}")
+    }
+
+    println("five - ${Thread.currentThread().name}") // 2. five - main
+
+    //job.join()
+
+    // if the job is not finished after 1 second, it will be cancelled
+    job.cancel(cause = CancellationException("Timeout"))
+    if (job.isCancelled) print("Job has cancelled")
+    if (job.isCompleted) print("Job has completed")
+
+
+    job.join()
+
+    // retrieving cancelation information
+    //val cancellation = job.getCancellationException().cause // still experimental
 }
 
 /**
@@ -120,10 +154,10 @@ fun blockingLocalCustomDispatch() = runBlocking{
     val customDispatcher: ExecutorCoroutineDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
 
     launch(customDispatcher) {
-        printDelayed("two - ${Thread.currentThread().name}") // 3. two - pool-1-thread-1
+        printDelayed("two - ${Thread.currentThread().name}") // 3. two - DefaultDispatcher-worker-1
     }
 
-    println("three - ${Thread.currentThread().name}") // 2. three - main
+    println("four - ${Thread.currentThread().name}") // 2. three - main
 
     (customDispatcher.executor as ExecutorService).shutdown()
 }
