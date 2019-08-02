@@ -4,7 +4,6 @@ import kotlinx.coroutines.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import kotlin.coroutines.CoroutineContext
-import kotlin.coroutines.suspendCoroutine
 
 
 fun main() {
@@ -18,7 +17,8 @@ fun main() {
     //asyncAwaitExampleA()
     //blockingAsyncAwait()
     //concurrentScope()
-    blockingWithCancelAndException()
+    //blockingWithCancelAndException()
+    awaitAllExample()
 }
 
 
@@ -66,6 +66,9 @@ fun blockingGlobal() = runBlocking{
 
     job.join() // the runBlocking can finish only after job has finished, so adding delay() is not necessary
     //job.start() // main thread will continue running without waiting for the job to finish.
+
+    if(job.isCompleted) println("job completed")
+
 }
 
 
@@ -109,7 +112,7 @@ fun blockingWithCancelAndException() = runBlocking{
 fun blockingGlobal2() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
-    val job = GlobalScope.launch(Dispatchers.Unconfined) {
+    val job: Job = GlobalScope.launch(Dispatchers.Unconfined) {
         printDelayed("two - ${Thread.currentThread().name}") // 3. two - main
         //suspendCoroutine<Unit> {}
         delay(1_000)
@@ -151,15 +154,16 @@ fun blockingLocalDispatch() = runBlocking{
 fun blockingLocalCustomDispatch() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
-    val customDispatcher: ExecutorCoroutineDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
+    val customDispatcher1: ExecutorCoroutineDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
+    //val customDispather2 = newFixedThreadPoolContext(2, "IO") // experimantal
 
-    launch(customDispatcher) {
+    launch(customDispatcher1) {
         printDelayed("two - ${Thread.currentThread().name}") // 3. two - DefaultDispatcher-worker-1
     }
 
     println("four - ${Thread.currentThread().name}") // 2. three - main
 
-    (customDispatcher.executor as ExecutorService).shutdown()
+    (customDispatcher1.executor as ExecutorService).shutdown()
 }
 
 
@@ -170,16 +174,16 @@ fun blockingLocalCustomDispatch() = runBlocking{
  *
  * */
 fun concurrentAsyncAwait() = runBlocking {
-    val userId1 = async { fetchUser("pitos007@gmail.com") }.await() // blocking
+    val userId1: String = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
     println("$userId1 returned")
 
     val startTime = System.currentTimeMillis()
-    val rValue1: Deferred<String> = async { fetchUserData(userId1) } // concurrent
-    val rValue2: Deferred<String> = async { fetchWeather(1.12, 0.15) } // concurrent
-    val rValue3: Deferred<String> = async { fetchUserExtraData(userId1) } // concurrent
+    val deferredValue1: Deferred<String> = async { fetchUserData(userId1) } // concurrent
+    val deferredValue2: Deferred<String> = async { fetchWeather(1.12, 0.15) } // concurrent
+    val deferredValue3: Deferred<String> = async { fetchUserExtraData(userId1) } // concurrent
 
-    val result = "${rValue1.await()} ${rValue2.await()} ${rValue3.await()}"
+    val result = "${deferredValue1.await()} ${deferredValue2.await()} ${deferredValue3.await()}"
     println(result)
 
     val endTime = System.currentTimeMillis()
@@ -187,9 +191,14 @@ fun concurrentAsyncAwait() = runBlocking {
 }
 
 
-fun awaitAllExample() = runBlocking {
-    val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
+
+fun awaitAllExample() = runBlocking {
+    val userId = async { fetchUser("username@gmail.com") }.await() // blocking
+
+    val userId2 = withContext(Dispatchers.Default) { fetchUser("username@gmail.com") } // blocking
+
+    // all running concurrently
     val defferedList: List<Deferred<String>> = listOf(
         async { fetchUserData(userId) },
         async { fetchWeather(1.12, 0.15) },
@@ -197,8 +206,30 @@ fun awaitAllExample() = runBlocking {
     )
 
 
-    val res: List<String> = defferedList.awaitAll().map {
-        it.plus(it)
+
+    defferedList.awaitAll().map {
+        println(it)
+    }
+
+    println("-----------------------------")
+
+    defferedList.flatMap {
+        listOf(it.await()).map {r->
+            println(r)
+        }
+    }
+
+    println("-----------------------------")
+
+    defferedList.forEach {
+        println(it.await())
+
+    }
+
+    println("-----------------------------")
+
+    defferedList.map {
+        println(it.await())
     }
 }
 
@@ -251,6 +282,9 @@ fun blockingAsyncAwait() = runBlocking {
 
 
 
+
+
+
 /**
  * Suspending function can suspend their execution without blocking the thread in which they reside.
  * Suspending function can only be invoked from other suspending function or from coroutines.
@@ -262,31 +296,31 @@ suspend fun printDelayed(message: String){
 }
 
 suspend fun fetchWeather(lat: Double, lon: Double): String{
-    delay(500)
+    delay(1000)
     println("feaching weather data...")
-    delay(500)
+    delay(1000)
     return "Weather at location: $lat, $lon returned ;"
 }
 
 suspend fun fetchUser(userEmail: String): String{
-    delay(500)
+    delay(1000)
     println("feaching user $userEmail...")
-    delay(500)
+    delay(1000)
     return "12345 "
 }
 
 suspend fun fetchUserData(userId: String): String{
-    delay(500)
+    delay(1000)
     println("feaching data for user $userId...")
-    delay(500)
+    delay(1000)
     return "data for user: $userId returned ;"
 }
 
 
 suspend fun fetchUserExtraData(userId: String): String{
-    delay(500)
+    delay(1000)
     println("feaching extra data for user $userId...")
-    delay(500)
+    delay(1000)
     return "Extra data for user: $userId returned ;"
 }
 
