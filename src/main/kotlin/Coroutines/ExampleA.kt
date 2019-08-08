@@ -155,7 +155,8 @@ fun blockingLocalCustomDispatch() = runBlocking{
     println("one - ${Thread.currentThread().name}") // 1. one - main
 
     val customDispatcher1: ExecutorCoroutineDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
-    //val customDispather2 = newFixedThreadPoolContext(2, "IO") // experimantal
+    //val customDispather2 = newFixedThreadPoolContext(2, "IO") // experimental
+    //val customDispatcher3 = newSingleThreadContext("Single") // experimental
 
     launch(customDispatcher1) {
         printDelayed("two - ${Thread.currentThread().name}") // 3. two - DefaultDispatcher-worker-1
@@ -188,6 +189,22 @@ fun concurrentAsyncAwait() = runBlocking {
 
     val endTime = System.currentTimeMillis()
     println("Run time: ${endTime - startTime}")
+}
+
+
+fun asyncWithDispatcher() = runBlocking {
+    val customDispatcher: ExecutorCoroutineDispatcher = Executors.newFixedThreadPool(4).asCoroutineDispatcher()
+
+
+    val userId1 = withContext(customDispatcher) {
+        fetchUser("name@gmail.com")
+    }
+
+    // async returns Deffered<T> so it has to be called with await()
+    val userId = async(customDispatcher){
+        fetchUser("name@gmail.com")
+    }.await()
+
 }
 
 
@@ -252,7 +269,10 @@ fun concurrentScope() = runBlocking{
     }
 }
 
-
+/**
+*
+ * withContext is the same as async(Dispatcher)
+* */
 fun blockingAsyncAwait() = runBlocking {
     val userId = async { fetchUser("pitos007@gmail.com") }.await() // blocking
 
