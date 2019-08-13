@@ -1,6 +1,9 @@
 package Coroutines
 
+import com.sun.management.jmx.Trace.send
 import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.ReceiveChannel
+import kotlinx.coroutines.channels.produce
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import kotlin.coroutines.CoroutineContext
@@ -18,7 +21,8 @@ fun main() {
     //blockingAsyncAwait()
     //concurrentScope()
     //blockingWithCancelAndException()
-    awaitAllExample()
+    //awaitAllExample()
+    yieldIterator()
 }
 
 
@@ -296,6 +300,73 @@ fun blockingAsyncAwait() = runBlocking {
     val endTime = System.currentTimeMillis()
     println("Run time: ${endTime - startTime}")
 }
+
+
+/**
+ * Producers can suspend during execution
+ * */
+
+@ExperimentalCoroutinesApi
+fun CoroutineScope.produceNames() = produce<String> {
+    send("Bolek")
+    send("Lokek")
+    send("Tomek")
+    send("Atomek")
+}
+
+
+
+
+
+/**
+* Both iterators and sequences cannot suspend during execution
+* */
+fun yieldIterator(){
+    val names = iterator {
+        yield("Bolek")
+        yield("Lokek")
+        yield("Tomek")
+        yield("Atomek")
+    }
+
+    println(names.next())
+    println("Lolek, Tomek and Atomek are suspended")
+    println(names.next())
+    println("Tomek and Atomek are suspended")
+    println(names.next())
+    println("Atomek is suspended")
+    println(names.next())
+
+
+    // --------------------------------------------
+
+    names.forEach { n ->
+        if(names.hasNext()){
+            println(n)
+            println(names.next())
+        }
+    }
+
+    val multiUser: Iterator<Any> = iterator {
+        yield("Lolek")
+        yield(25)
+        yield(42.54)
+    }
+}
+
+
+fun yieldSequence(){
+    val nameSequence = sequence {
+        yield("Bolek")
+        yield("Lokek")
+        yield("Tomek")
+        yield("Atomek")
+    }
+
+    println(nameSequence.last())
+    println(nameSequence.take(3)) // takes first three
+}
+
 
 
 

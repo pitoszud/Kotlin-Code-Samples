@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ReposotoryExample/DataRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr$BLUE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr$BLUE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$defferedList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$defferedList$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$defferedList$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$defferedList$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$defferedList$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$defferedList$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$userId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$userId$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$userId2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1$userId2$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext2$1.class" afterDir="false" />
@@ -17,13 +15,25 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$userId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$userId$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingBackgroundA$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingBackgroundA$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1$job$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1$job$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1$job$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1$job$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocal$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocal$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalCustomDispatch$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalCustomDispatch$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalCustomDispatch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalCustomDispatch$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainA$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainA$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainB$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$job$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$job$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$deferredValue1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$deferredValue1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$deferredValue2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$deferredValue2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$deferredValue3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$deferredValue3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$userId1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1$userId1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentAsyncAwait$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentScope$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentScope$1$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentScope$1$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$concurrentScope$1$1$2.class" afterDir="false" />
@@ -38,7 +48,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchWeather$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchWeather$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayed$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImpl$asyncFetchById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImpl$asyncFetchById$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImplKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImplKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImplKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/DataRepositoryImplKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/Feed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ReposotoryExample/Feed.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutines.ReposotoryExample.DataRepositoryImplKt">
+  <component name="RunManager" selected="Kotlin.Coroutines.ExampleAKt (1)">
     <configuration name="Coroutines.ExampleAKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy" />
       <option name="VM_PARAMETERS" />
@@ -187,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Coroutines.ReposotoryExample.DataRepositoryImplKt" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt (1)" />
+        <item itemvalue="Kotlin.Coroutines.ReposotoryExample.DataRepositoryImplKt" />
         <item itemvalue="Kotlin.Delegate.Property_change_notificationKt" />
         <item itemvalue="Kotlin.Delegate.BackingProperty_vs_DelegateKt" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt" />
