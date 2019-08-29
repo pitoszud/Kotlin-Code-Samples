@@ -1,4 +1,4 @@
-package Coroutines.Producers
+package Coroutines.Channels
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
 import kotlinx.coroutines.launch
@@ -16,11 +16,13 @@ fun main() {
  * Unlike a queue, a channel can be closed to indicate that no more elements are coming.
  *
  * */
+@ExperimentalCoroutinesApi
 fun basicChannel(size: Int) = runBlocking{
     val ch1 = Channel<Double>()
     GlobalScope.launch {
         for (x in 0..size) ch1.send(x * 1.114)
         ch1.close()
+        println(ch1.isClosedForSend)
     }
 
     repeat(size) { println(ch1.receive()) }
