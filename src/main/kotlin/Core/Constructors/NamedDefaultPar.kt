@@ -18,4 +18,7 @@ fun interview(){
     val e2 = Employee(
             "Bolek",
             secondname = "BeloL")
+
+
+        val e3 = Employee("Tomek", "Kemot")
 }

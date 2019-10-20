@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/codingInterview/TwoDArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/FunctionalProgramming/Inline_vs_anonymous.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sandpit/SandpitA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Core/Constructors/NamedDefaultPar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Core/Constructors/NamedDefaultPar.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,6 +56,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1P5qdu3QkHKErdJbPHCJOxF4nJP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutines.Channels.ChannelsKt">
+  <component name="RunManager" selected="Kotlin.Sandpit.SandpitAKt">
     <configuration name="Coroutines.Channels.ChannelsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy" />
       <option name="VM_PARAMETERS" />
@@ -126,27 +136,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Delegate.BackingProperty_vs_DelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy" />
+    <configuration name="FunctionalProgramming.Inline_vs_anonymousKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Delegate.BackingProperty_vs_DelegateKt" />
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Inline_vs_anonymousKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Delegate.Property_change_notificationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy" />
+    <configuration name="Sandpit.SandpitAKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Delegate.Property_change_notificationKt" />
+      <option name="MAIN_CLASS_NAME" value="Sandpit.SandpitAKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Sandpit.SandpitAKt" />
+        <item itemvalue="Kotlin.FunctionalProgramming.Inline_vs_anonymousKt" />
         <item itemvalue="Kotlin.Coroutines.Channels.ChannelsKt" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt (1)" />
         <item itemvalue="Kotlin.Coroutines.ReposotoryExample.DataRepositoryImplKt" />
-        <item itemvalue="Kotlin.Delegate.Property_change_notificationKt" />
-        <item itemvalue="Kotlin.Delegate.BackingProperty_vs_DelegateKt" />
       </list>
     </recent_temporary>
   </component>
