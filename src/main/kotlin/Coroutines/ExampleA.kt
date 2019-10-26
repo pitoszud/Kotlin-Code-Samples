@@ -1,5 +1,6 @@
 package Coroutines
 
+import javafx.application.Application.launch
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.produce
@@ -21,7 +22,10 @@ fun main() {
     //concurrentScope()
     //blockingWithCancelAndException()
     //awaitAllExample()
-    yieldIterator()
+    //yieldIterator()
+    //invokeSuspendingFunctions_concurrently()
+    //invokeSuspendingFunctions_non_concurrently()
+    invokeSuspendingFunctions_concurrently_lazy()
 }
 
 
@@ -72,6 +76,76 @@ fun blockingGlobal() = runBlocking{
 
     if(job.isCompleted) println("job completed")
 
+}
+
+
+
+
+/**
+ * invoke a suspending function from the main thread
+ * and run each function in the background thread
+ * */
+// Android:
+// CoroutineScope(Dispatchers.Main).launch{}
+fun invokeSuspendingFunctions_concurrently() = runBlocking{
+    launch(Dispatchers.Default) {
+        val task1: Deferred<String> = async(Dispatchers.IO) {
+            printDelayedInMain("task1") // 1 - concurrent
+        }
+        val task2: Deferred<String> = async(Dispatchers.IO) {
+            printDelayedInMain("task2") // 1 - concurrent
+        }
+
+        val resultStr = task1.await() +  task2.await()
+        println(resultStr)
+    }
+}
+
+
+// Android:
+// CoroutineScope(Dispatchers.IO).launch{}
+fun invokeSuspendingFunctions_concurrently_lazy() = runBlocking{
+    launch(Dispatchers.IO) {
+        val task1: Deferred<String> = async(start = CoroutineStart.LAZY) {
+            printDelayedInMain("task1") // 1 - concurrent
+        }
+        val task2: Deferred<String> = async(start = CoroutineStart.LAZY) {
+            printDelayedInMain("task2") // 1 - concurrent
+        }
+
+        val resultStr = task1.await() +  task2.await()
+        println(resultStr)
+    }
+}
+
+// Android:
+// CoroutineScope(Dispatchers.Main).launch{}
+fun invokeSuspendingFunctions_non_concurrently()= runBlocking{
+    launch(Dispatchers.Default) {
+        val task1: String = printDelayedInMain("task1") // 1
+        val task2: String = printDelayedInMain("task2") // 2
+
+        val resultStr = task1 +  task2 // 3
+        println(resultStr)
+    }
+}
+
+
+
+
+// Android:
+// CoroutineScope(Dispatchers.Main).launch{}
+fun invokeSuspendingFunctions_with_timeout()= runBlocking{
+    launch(Dispatchers.Default) {
+        withTimeout(3000){
+            val task1: String = printDelayedInMain("task1") // 1
+            val task2: String = printDelayedInMain("task2") // 2
+
+            val resultStr = task1 +  task2 // 3
+            println(resultStr)
+        }
+
+    }
 }
 
 
@@ -383,6 +457,14 @@ fun yieldSequence(){
 suspend fun printDelayed(message: String){
     delay(1000)
     println(message)
+}
+
+suspend fun printDelayedInMain(message: String): String{
+    withContext(Dispatchers.Default){
+        delay(1000)
+        println(message)
+    }
+    return "$message done"
 }
 
 suspend fun fetchWeather(lat: Double, lon: Double): String{
