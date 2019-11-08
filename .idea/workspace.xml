@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$produceNumbers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$produceNumbers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1.class" afterDir="false" />
@@ -18,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$userId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$userId$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingBackgroundA$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingBackgroundA$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1$job$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1$job$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1$job$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1$job$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingGlobal2$1.class" afterDir="false" />
@@ -29,7 +33,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingLocalDispatch$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainA$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainA$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingMainB$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$job$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$job$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1.class" afterDir="false" />
@@ -49,16 +52,18 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserData$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserExtraData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserExtraData$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchWeather$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchWeather$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$invokeSuspendingFunctions_concurrently$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$invokeSuspendingFunctions_concurrently$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$invokeSuspendingFunctions_concurrently_lazy$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$invokeSuspendingFunctions_concurrently_lazy$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$invokeSuspendingFunctions_non_concurrently$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$invokeSuspendingFunctions_non_concurrently$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$produceNames$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$produceNames$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$multiUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$multiUser$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$names$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$names$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldSequence$nameSequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldSequence$nameSequence$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Sandpit/OrderPOS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Sandpit/OrderPOSB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Sandpit/OrderPOSB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Sandpit/SandpitAKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Sandpit/SandpitAKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Channels/Channels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Channels/Channels.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,11 +126,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554823139791" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HackerRank-Challanges" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4007353" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -147,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutines.ExampleAKt">
+  <component name="RunManager" selected="Kotlin.Coroutines.Channels.ChannelsKt (1)">
     <configuration name="kotlinStudy [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,8 +172,8 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Coroutines.Channels.ChannelsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy" />
+    <configuration name="Coroutines.Channels.ChannelsKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -221,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Coroutines.Channels.ChannelsKt (1)" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt" />
         <item itemvalue="Gradle.kotlinStudy [dependencies]" />
         <item itemvalue="Kotlin.Sandpit.SandpitAKt" />
         <item itemvalue="Kotlin.FunctionalProgramming.Inline_vs_anonymousKt" />
-        <item itemvalue="Kotlin.Coroutines.Channels.ChannelsKt" />
       </list>
     </recent_temporary>
   </component>
