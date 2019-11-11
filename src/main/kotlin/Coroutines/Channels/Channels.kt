@@ -1,7 +1,7 @@
 package Coroutines.Channels
+import com.sun.deploy.trace.TraceLevel.UI
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
-import java.util.concurrent.Executors
 
 
 @ExperimentalCoroutinesApi
@@ -10,7 +10,7 @@ fun main() {
     //basicProducer(5)
     //appComponentA()
     //publisherExample()
-    actorsExample()
+    broastcastChannel()
 }
 
 
@@ -100,9 +100,6 @@ fun channelExample() = runBlocking{
         }
     }
 
-
-
-
 }
 
 
@@ -142,42 +139,93 @@ fun publisherExample() = runBlocking{
 
 
 
+
 @UseExperimental(ObsoleteCoroutinesApi::class)
 @ExperimentalCoroutinesApi
-fun actorsExample() = runBlocking{
+fun broastcastChannel() = runBlocking{
 
     val posList = getPosList()
 
-    val channel = Channel<ProductPOS>(3)
-    launch {
+    // Publisher A
+    val broadcastChannel = BroadcastChannel<ProductPOS>(2)
+
+    val publisher: Job = launch {
         posList.forEach {
-            channel.send(it)
+            broadcastChannel.send(it)
+        }
+    }
+    //publisher.join()
+
+
+
+    // PRODUCER
+    // ------------------------------------------
+    // CONSUMER
+
+
+    //val productPOSReceived: ProductPOS = channel.receive()
+
+    val productPOSListReceived = mutableListOf<ProductPOS>()
+
+
+    val observerA: Job = launch {
+        broadcastChannel.consumeEach{
+            productPOSListReceived.add(it)
+            println(productPOSListReceived.size)
+            println("ObserverA: receiving on observer A "+ it.name)
+        }
+    }
+    //println("active: ${observerA.isActive}, cancelled: ${observerA.isCancelled}, completed: ${observerA.isCompleted}")
+
+//    val observerA: Job = GlobalScope.launch(Dispatchers.Default) {
+//        broadcastChannel.consumeEach{
+//            productPOSListReceived.add(it)
+//            //println("ObserverA: receiving on observer A "+ it.name)
+//        }
+//    }
+
+    //observerA.join()
+
+    val observerB: Job = launch {
+        broadcastChannel.consumeEach {
+            productPOSListReceived.add(it)
+            println(productPOSListReceived.size)
+            println("ObserverB: receiving on observer B "+ it.name)
         }
     }
 
 
-    // PRODUCER / CONSUMER
+    //println("active: ${observerA.isActive}, cancelled: ${observerA.isCancelled}, completed: ${observerA.isCompleted}")
 
-    // actor is only going to process one object at a time.
-    val actor: SendChannel<ProductPOS> = actor<ProductPOS>(){
-        consumeEach {
-            println(it.name)
-        }
-    }
+//    val observerB: Job = GlobalScope.launch(Dispatchers.Default) {
+//        broadcastChannel.consumeEach {
+//            productPOSListReceived.add(it)
+//            //println("ObserverB: receiving on observer B "+ it.name)
+//        }
+//    }
 
+    //observerB.join()
 
-    launch {
-        actor.send(ProductPOS("Banana", "1237", 2))
-    }
-
-    launch {
-        actor.send(ProductPOS("Strawberry", "1237", 2))
-    }
+    //publisher.join()
+    //observerA.join()
+    //observerB.join()
 
 
+
+    //publisher.cancel()
+    //publisher.join()
+
+    //observerA.join()
+    //observerA.cancel()
+
+    //observerB.join()
+    //observerB.cancel()
 
 
 }
+
+
+
 
 
 

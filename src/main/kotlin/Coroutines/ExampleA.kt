@@ -149,6 +149,7 @@ fun invokeSuspendingFunctions_with_timeout()= runBlocking{
 }
 
 
+// It is not recomended to use GlobalScope.launch
 
 fun blockingWithCancelAndException() = runBlocking{
 

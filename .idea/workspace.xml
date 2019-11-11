@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Channels/Actors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Channels/Flows.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$actorsExample$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$actorsExample$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$actorsExample$1$actor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$actorsExample$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicChannel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$basicProducer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$produceNumbers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$produceNumbers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$channelExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$getPosList$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$getPosList$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$publisherExample$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$publisherExample$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$publisherExample$1$publisher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$publisherExample$1$publisher$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$publisherExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt$publisherExample$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ChannelsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$asyncWithDispatcher$1$userId1$1.class" afterDir="false" />
@@ -63,7 +76,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$names$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$names$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldSequence$nameSequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldSequence$nameSequence$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Channels/Channels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Channels/Channels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExampleA.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutines.Channels.ChannelsKt (1)">
+  <component name="RunManager" selected="Kotlin.Coroutines.Channels.FlowsKt">
     <configuration name="kotlinStudy [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -172,6 +187,19 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Coroutines.Channels.ActorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Channels.ActorsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Coroutines.Channels.ChannelsKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
@@ -180,6 +208,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Coroutines.Channels.ChannelsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coroutines.Channels.FlowsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Channels.FlowsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,39 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalProgramming.Inline_vs_anonymousKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.Inline_vs_anonymousKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sandpit.SandpitAKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Sandpit.SandpitAKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Coroutines.Channels.FlowsKt" />
         <item itemvalue="Kotlin.Coroutines.Channels.ChannelsKt (1)" />
+        <item itemvalue="Kotlin.Coroutines.Channels.ActorsKt" />
         <item itemvalue="Kotlin.Coroutines.ExampleAKt" />
         <item itemvalue="Gradle.kotlinStudy [dependencies]" />
-        <item itemvalue="Kotlin.Sandpit.SandpitAKt" />
-        <item itemvalue="Kotlin.FunctionalProgramming.Inline_vs_anonymousKt" />
       </list>
     </recent_temporary>
   </component>
