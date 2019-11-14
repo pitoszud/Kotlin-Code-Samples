@@ -1,27 +1,24 @@
 package Coroutines.Channels
 
-import kotlinx.coroutines.Job
+import LambdaStreams.Patterns.Points
+import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.BroadcastChannel
 import kotlinx.coroutines.channels.consumeEach
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.channels.produce
+import kotlinx.coroutines.flow.*
 
 
-fun main() {
+@ExperimentalCoroutinesApi
+fun main() = runBlocking {
     flowExampleA()
 }
 
+@ExperimentalCoroutinesApi
 fun flowExampleA() = runBlocking{
 
-    val posList = getPosList()
+    val posList: List<ProductPOS> = getPosList()
 
-   val flow = flow {
-       emit(posList[0])
-       emit(posList[1])
-   }
+   val flow: Flow<ProductPOS> = flowOf(posList[0], posList[1]).flowOn(Dispatchers.IO)
 
 
     // PRODUCER
@@ -30,7 +27,17 @@ fun flowExampleA() = runBlocking{
 
     val consumer = runBlocking<Unit> {
         flow.collect{
-            println(it)
+            println(it.name)
+        }
+    }
+
+
+
+    fun Flow<ProductPOS>.getNames(): Flow<String>{
+        return flow{
+            collect{
+                emit(it.toString())
+            }
         }
     }
 
