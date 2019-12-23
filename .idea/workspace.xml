@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/Composite/Client.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/Composite/Layout.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/Composite/View.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/Composite/ViewComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ConfilationCollectLatest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlowWithOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlowWithOperators.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,15 +88,15 @@
       <recent name="E:\Kotlin\kotlinStudy\src\main\kotlin\Coroutines\Channels" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DesignPatterns.Composite.ClientKt">
-    <configuration name="Coroutines.Channels.FlowsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Coroutines.Flows.ConfilationCollectLatestKt">
+    <configuration name="Coroutines.Flows.ConfilationCollectLatestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.Channels.FlowsKt" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.ConfilationCollectLatestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.DesignPatterns.Composite.ClientKt" />
+        <item itemvalue="Kotlin.Coroutines.Flows.ConfilationCollectLatestKt" />
         <item itemvalue="Kotlin.Coroutines.Flows.FlowWithOperatorsKt" />
+        <item itemvalue="Kotlin.DesignPatterns.Composite.ClientKt" />
         <item itemvalue="Kotlin.Coroutines.Flows.FlowColdWithCancellationKt" />
         <item itemvalue="Kotlin.Coroutines.Flows.FlowConcurrencyExampleKt" />
-        <item itemvalue="Kotlin.Coroutines.Channels.FlowsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -205,29 +203,33 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1576717560972">
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1577105289973">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1576717560972" />
+    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
     <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655572" />
-    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1576717560972">
+    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1577105289973">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1576717560972" />
+    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
     <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655572" />
-    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1576717560972">
+    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1577105289973">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1576717560972" />
+    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
     <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655571" />
-    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1576717560972">
+    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1577105289973">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1576717560972" />
+    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
     <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655572" />
     <state x="657" y="317" width="606" height="526" key="find.popup" timestamp="1576716716542">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="657" y="317" width="606" height="526" key="find.popup/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1576716716542" />
+    <state x="616" y="270" width="672" height="677" key="run.anything.popup" timestamp="1577105159347">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" width="672" height="677" key="run.anything.popup/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105159347" />
   </component>
 </project>

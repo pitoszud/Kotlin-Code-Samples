@@ -45,7 +45,4 @@ class FlowWithOperators {
             .collect { println(it) }
     }
 
-    // Next:
-    // https://kotlinlang.org/docs/reference/coroutines/flow.html#flow-context
-
 }
