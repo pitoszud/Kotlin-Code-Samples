@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ConfilationCollectLatest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlatMaps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ZipCombine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ConfilationCollectLatest$collectLatestCollector$1$values$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ConfilationCollectLatest$collectLatestCollector$1$values$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ConfilationCollectLatest$collectLatestCollector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ConfilationCollectLatest$collectLatestCollector$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ConfilationCollectLatest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ConfilationCollectLatest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlowWithOperators$appClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlowWithOperators$appClient$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlowWithOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlowWithOperators.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ConfilationCollectLatest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ConfilationCollectLatest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +92,7 @@
       <recent name="E:\Kotlin\kotlinStudy\src\main\kotlin\Coroutines\Channels" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Coroutines.Flows.ConfilationCollectLatestKt">
+  <component name="RunManager" selected="Kotlin.Coroutines.Flows.FlatMapsKt">
     <configuration name="Coroutines.Flows.ConfilationCollectLatestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
@@ -102,27 +106,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coroutines.Flows.FlowColdWithCancellationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Coroutines.Flows.FlatMapsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlowColdWithCancellationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coroutines.Flows.FlowConcurrencyExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlowConcurrencyExampleKt" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlatMapsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,6 +127,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlowWithOperatorsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coroutines.Flows.ZipCombineKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.ZipCombineKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Coroutines.Flows.FlatMapsKt" />
+        <item itemvalue="Kotlin.Coroutines.Flows.ZipCombineKt" />
         <item itemvalue="Kotlin.Coroutines.Flows.ConfilationCollectLatestKt" />
         <item itemvalue="Kotlin.Coroutines.Flows.FlowWithOperatorsKt" />
         <item itemvalue="Kotlin.DesignPatterns.Composite.ClientKt" />
-        <item itemvalue="Kotlin.Coroutines.Flows.FlowColdWithCancellationKt" />
-        <item itemvalue="Kotlin.Coroutines.Flows.FlowConcurrencyExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -203,25 +207,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom" timestamp="1577105289973">
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom" timestamp="1578271957298">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
     <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655572" />
-    <state width="1877" height="293" key="GridCell.Tab.0.center" timestamp="1577105289973">
+    <state width="1877" height="394" key="GridCell.Tab.0.center" timestamp="1578271957298">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
     <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655572" />
-    <state width="1877" height="293" key="GridCell.Tab.0.left" timestamp="1577105289973">
+    <state width="1877" height="394" key="GridCell.Tab.0.left" timestamp="1578271957298">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
     <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655571" />
-    <state width="1877" height="293" key="GridCell.Tab.0.right" timestamp="1577105289973">
+    <state width="1877" height="394" key="GridCell.Tab.0.right" timestamp="1578271957298">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1577105289973" />
+    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
     <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1576716655572" />
     <state x="657" y="317" width="606" height="526" key="find.popup" timestamp="1576716716542">
       <screen x="0" y="0" width="1920" height="1160" />

@@ -67,9 +67,4 @@ class ConfilationCollectLatest {
         println("collected in $values ms")
     }
 
-
-    // next
-    // https://kotlinlang.org/docs/reference/coroutines/flow.html#composing-multiple-flows
-
-
 }
