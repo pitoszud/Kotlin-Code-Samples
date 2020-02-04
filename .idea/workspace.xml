@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Delegate/ClassicDelegation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlatMapLatest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlatMapMerge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountCollector$1$invokeSuspend$$inlined$collect$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountCollector$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountProducer$2$f1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountProducer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountProducer2$1$f2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountProducer2$1$f2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$accountProducer2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps$stringProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMaps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/FlatMapsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ZipCombine$combineExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ZipCombine$combineExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ZipCombine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/ZipCombine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlatMaps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/FlatMapConcat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ZipCombine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/ZipCombine.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,41 +103,41 @@
       <recent name="E:\Kotlin\kotlinStudy\src\main\kotlin\Coroutines\Channels" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Delegate.ClassicDelegationKt">
-    <configuration name="Coroutines.Flows.ConfilationCollectLatestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Coroutines.Flows.FlatMapLatestKt">
+    <configuration name="Coroutines.Flows.FlatMapConcatKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.ConfilationCollectLatestKt" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlatMapConcatKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coroutines.Flows.FlatMapsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Coroutines.Flows.FlatMapLatestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlatMapsKt" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlatMapLatestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Coroutines.Flows.FlowWithOperatorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Coroutines.Flows.FlatMapMergeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy_main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlowWithOperatorsKt" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.FlatMapMergeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Coroutines.Flows.FlatMapLatestKt" />
+        <item itemvalue="Kotlin.Coroutines.Flows.FlatMapConcatKt" />
+        <item itemvalue="Kotlin.Coroutines.Flows.FlatMapMergeKt" />
         <item itemvalue="Kotlin.Delegate.ClassicDelegationKt" />
-        <item itemvalue="Kotlin.Coroutines.Flows.FlatMapsKt" />
         <item itemvalue="Kotlin.Coroutines.Flows.ZipCombineKt" />
-        <item itemvalue="Kotlin.Coroutines.Flows.ConfilationCollectLatestKt" />
-        <item itemvalue="Kotlin.Coroutines.Flows.FlowWithOperatorsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -204,26 +222,30 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2671" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1579125804514" />
-    <state width="1877" height="394" key="GridCell.Tab.0.bottom" timestamp="1579128993130">
+    <state x="2538" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580049291268">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
-    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1579128993130" />
-    <state width="1877" height="394" key="GridCell.Tab.0.center" timestamp="1579128993129">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="2538" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1580049291268" />
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom" timestamp="1580853523975">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
-    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1579128993129" />
-    <state width="1877" height="394" key="GridCell.Tab.0.left" timestamp="1579128993129">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1580072170769" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center" timestamp="1580853523975">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
-    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1579128993129" />
-    <state width="1877" height="394" key="GridCell.Tab.0.right" timestamp="1579128993129">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1580072170769" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left" timestamp="1580853523975">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1578271957298" />
-    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1579128993129" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1580072170769" />
+    <state width="1877" height="394" key="GridCell.Tab.0.right" timestamp="1580853523975">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
+    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1580072170769" />
     <state x="657" y="317" width="606" height="526" key="find.popup" timestamp="1576716716542">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
