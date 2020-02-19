@@ -2,6 +2,8 @@ package Coroutines.Channels
 import com.sun.deploy.trace.TraceLevel.UI
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
+import kotlinx.coroutines.channels.Channel.Factory.CONFLATED
+import kotlinx.coroutines.channels.Channel.Factory.UNLIMITED
 
 
 @ExperimentalCoroutinesApi
@@ -10,7 +12,8 @@ fun main() {
     //basicProducer(5)
     //appComponentA()
     //publisherExample()
-    broastcastChannel()
+    //broastcastChannel()
+    broadcastLatest()
 }
 
 
@@ -220,6 +223,52 @@ fun broastcastChannel() = runBlocking{
 
     //observerB.join()
     //observerB.cancel()
+
+
+}
+
+
+
+@ExperimentalCoroutinesApi
+fun broadcastLatest() = runBlocking {
+    val conflatedChannel = BroadcastChannel<ProductPOS>(CONFLATED)
+    val posList = getPosList()
+
+    val p1 = launch {
+        posList.forEach {
+            conflatedChannel.send(it)
+            //delay(100)
+        }
+    }
+    val p2 = launch {
+        conflatedChannel.send(ProductPOS("Peach", "126", 4))
+        //delay(500)
+        conflatedChannel.send(ProductPOS("Blackcurrant", "127", 30))
+    }
+
+
+    // PRODUCER
+    // ------------------------------------------
+    // CONSUMER
+
+
+    val productPOSListReceived = mutableListOf<ProductPOS>()
+
+    val o1 = launch {
+        conflatedChannel.consumeEach {
+            productPOSListReceived.add(it)
+            println(productPOSListReceived.size)
+            println("Observer1 receiving "+ it.name)
+        }
+    }
+
+    val o2 = launch {
+        conflatedChannel.consumeEach {
+            productPOSListReceived.add(it)
+            println(productPOSListReceived.size)
+            println("Observer2 receiving "+ it.name)
+        }
+    }
 
 
 }
