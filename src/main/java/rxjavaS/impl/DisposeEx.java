@@ -1,13 +1,12 @@
 package rxjavaS.impl;
-import io.reactivex.*;
+import io.reactivex.Maybe;
+import io.reactivex.Observable;
+import io.reactivex.Single;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
-import io.reactivex.observables.ConnectableObservable;
 import io.reactivex.observers.ResourceObserver;
 
 import java.util.concurrent.TimeUnit;
-
-import static rxjavaS.impl.ObservableMethods.sleep;
 
 public class DisposeEx {
     public static void main(String[] args) {

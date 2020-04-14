@@ -1,6 +1,5 @@
 package Algorithms.Area
 
-import sun.rmi.runtime.Log
 import java.util.ArrayList
 
 

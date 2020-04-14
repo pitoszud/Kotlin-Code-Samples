@@ -1,5 +1,4 @@
 package Coroutines.Channels
-import com.sun.deploy.trace.TraceLevel.UI
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
 import kotlinx.coroutines.channels.Channel.Factory.CONFLATED
