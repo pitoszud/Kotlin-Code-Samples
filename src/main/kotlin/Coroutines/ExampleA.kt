@@ -1,6 +1,5 @@
 package Coroutines
 
-import javafx.application.Application.launch
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.produce
