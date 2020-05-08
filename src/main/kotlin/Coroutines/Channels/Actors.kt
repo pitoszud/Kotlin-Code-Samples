@@ -1,6 +1,6 @@
 package Coroutines.Channels
 
-import io.reactivex.internal.operators.completable.CompletableDefer
+
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.SendChannel
 import kotlinx.coroutines.channels.actor

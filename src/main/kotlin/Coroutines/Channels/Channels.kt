@@ -12,7 +12,8 @@ fun main() {
     //appComponentA()
     //publisherExample()
     //broastcastChannel()
-    broadcastLatest()
+    //broadcastLatest()
+    channelPipelineProducerA()
 }
 
 
@@ -51,10 +52,11 @@ fun basicProducer(size: Int) = runBlocking {
 }
 
 
-// ----------------------------------------------------------
+// ---- END ----
+
 
 class ProductPOS(
-    val name: String = "",
+    var name: String = "",
     val posId: String = "",
     val quantity: Int = 0
 )
@@ -105,6 +107,9 @@ fun channelExample() = runBlocking{
 }
 
 
+// ---- END ----
+
+
 @ExperimentalCoroutinesApi
 fun publisherExample() = runBlocking{
 
@@ -138,6 +143,52 @@ fun publisherExample() = runBlocking{
 
 }
 
+// ---- END ----
+
+
+
+@ExperimentalCoroutinesApi
+fun channelPipelineProducerA() = runBlocking {
+    val posList = getPosList()
+
+    val producerA: ReceiveChannel<ProductPOS> = produce<ProductPOS>{
+        posList.forEach{
+            println("producerA sending "+ it.posId)
+            channel.send(it)
+        }
+    }
+
+    val producerB = produce<ProductPOS>{
+        for(c in producerA){
+            println("producerb sending "+ c.name)
+            send(c)
+        }
+    }
+
+
+    // PRODUCER
+    // ------------------------------------------
+    // CONSUMER
+
+
+    val productPOSListReceived = mutableListOf<ProductPOS>()
+
+    launch {
+        producerB.consumeEach {product ->
+            productPOSListReceived.add(product)
+            println("receiving on consumer C "+ product.name)
+        }
+        coroutineContext.cancelChildren()
+    }
+}
+
+
+
+
+
+
+
+// ---- END ----
 
 
 
@@ -226,6 +277,8 @@ fun broastcastChannel() = runBlocking{
 
 }
 
+// ---- END ----
+
 
 
 @ExperimentalCoroutinesApi
@@ -273,7 +326,7 @@ fun broadcastLatest() = runBlocking {
 }
 
 
-
+// ---- END ----
 
 
 
