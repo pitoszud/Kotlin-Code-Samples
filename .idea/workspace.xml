@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/ExceptionHandling.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ProductPOS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Channels/ProductPOS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/Charger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/Charger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/Display.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/PowerSaving.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/PowerSaving.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/System.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Mediator/System.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr$BLUE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr$BLUE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Core/Enums/EnumMgr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/HK/TwoDArraysKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/TwoDArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/codingInterview/TwoDArrayKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HK/TwoDArrays.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/TwoDArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/codingInterview/TwoDArray.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554823139791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-design-patterns" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4007353" />
     <property name="settings.editor.selected.configurable" value="android.dex.compiler" />
@@ -105,7 +105,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ExceptionHandlingKt">
+  <component name="RunManager" selected="Kotlin.TwoDArrayKt">
     <configuration name="kotlinStudy [:clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -118,25 +118,6 @@
         <option name="taskNames">
           <list>
             <option value=":clean" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kotlinStudy [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="check" />
           </list>
         </option>
         <option name="vmOptions" value="" />
@@ -183,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoDArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="codingInterview.TwoDArrayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TwoDArrayKt" />
         <item itemvalue="Kotlin.ExceptionHandlingKt" />
         <item itemvalue="Kotlin.ChannelsKt (1)" />
         <item itemvalue="Kotlin.ChannelsKt" />
         <item itemvalue="Gradle.kotlinStudy [:clean]" />
-        <item itemvalue="Gradle.kotlinStudy [check]" />
       </list>
     </recent_temporary>
   </component>
@@ -250,30 +244,26 @@
     </state>
     <state x="577" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587447455945" />
     <state x="2641" y="235" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589346750857" />
-    <state width="1877" height="323" key="GridCell.Tab.0.bottom" timestamp="1589390469095">
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom" timestamp="1590914990107">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="356" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587447543474" />
-    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
-    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589390469095" />
-    <state width="1877" height="323" key="GridCell.Tab.0.center" timestamp="1589390469095">
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1590914990107" />
+    <state width="1877" height="323" key="GridCell.Tab.0.center" timestamp="1590914990107">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="356" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587447543474" />
-    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
-    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589390469095" />
-    <state width="1877" height="323" key="GridCell.Tab.0.left" timestamp="1589390469095">
+    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1590914990107" />
+    <state width="1877" height="323" key="GridCell.Tab.0.left" timestamp="1590914990106">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="356" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587447543474" />
-    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
-    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589390469095" />
-    <state width="1877" height="323" key="GridCell.Tab.0.right" timestamp="1589390469095">
+    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1590914990106" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right" timestamp="1590914990107">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="356" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587447543474" />
-    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1580853523975" />
-    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589390469095" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1590914990107" />
     <state width="724" height="263" key="GridCell.Tab.1.bottom" timestamp="1585616155403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -290,16 +280,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="724" height="263" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585616155403" />
-    <state x="346" y="0" key="SettingsEditor" timestamp="1589349960185">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2266" y="0" key="SettingsEditor" timestamp="1590908347092">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587447631902" />
     <state x="346" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1589349960185" />
-    <state x="2266" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1588709669049" />
-    <state x="94" y="147" width="579" height="530" key="find.popup" timestamp="1587447887867">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2266" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1590908347092" />
+    <state x="2038" y="207" width="724" height="747" key="find.popup" timestamp="1590908250698">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="94" y="147" width="579" height="530" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587447887867" />
+    <state x="2038" y="207" width="724" height="747" key="find.popup/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1590908250698" />
     <state x="2536" y="270" width="840" height="678" key="run.anything.popup" timestamp="1588709644475">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
