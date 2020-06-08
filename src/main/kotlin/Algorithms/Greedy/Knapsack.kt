@@ -15,17 +15,25 @@ fun calcKnapsack(weights: Array<Int>, values: Array<Int>, limit: Int): Int{
     for (wl in 1..limit){
         println("value limit: $wl")
 
-        val bestValForWeight = 0
+        var bestValForWeight = 0
 
         for (w in weights.indices){
-            println("check if weight ${weights[w]} with value ${values[w]} can be added to weight limit $wl")
+            println("Can weight ${weights[w]} with value ${values[w]} be added to weight limit $wl ?: ${weights[w] <= wl}")
 
             if (weights[w] <= wl){
-                var previousWeight = wl - weights[w]
+                val previousWeight = wl - weights[w]
                 println("previous weight: $previousWeight")
 
-                var bestPossibleValue = values[previousWeight] + values[w]
+                val bestPossibleValue = previousWeight + values[w]
+                println("Best possible value is: $previousWeight + ${values[w]} = ${values[w]}")
 
+                if (bestPossibleValue > bestValForWeight){
+                    bestValForWeight = bestPossibleValue
+
+                    println("bestPossibleValue $bestPossibleValue is bigger from the current best value $bestValForWeight")
+                }else{
+                    println("Current best value $bestValForWeight is still the biggest")
+                }
             }
 
         }
