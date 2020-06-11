@@ -17,6 +17,7 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
         it.end
     }
 
+    // 1. Set up a list that will hold optimum values for weights from 1 to limit.
     val tArr = IntArray(jobs.size)
 
     tArr[0] = jobs[0].weightedPrice
@@ -29,11 +30,19 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
         println("---")
 
         for (j in i - 1 downTo 0) {
+            /*
+            * if end time of the current job is earlier than the start time
+            * (they don't overlap), add the job j[i] value to job i[i] value
+            * and store the new value in the weighted array
+            * */
+
             if (jobs[j].end <= jobs[i].start) {
+                println("end time j ${jobs[j].end} is <= than start time i ${jobs[i].start}")
+
                 tArr[i] = tArr[i].coerceAtLeast(jobs[i].weightedPrice + tArr[j])
 
-                println("${jobs[j].end} <= ${jobs[i].start}")
-                println(tArr[i])
+                println("the new maximum sum of weights is ${jobs[i].weightedPrice} + ${tArr[j]} = ${tArr[i]}")
+
                 println("-----------")
 
                 break

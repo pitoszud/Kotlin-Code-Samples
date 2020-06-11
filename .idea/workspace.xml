@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/codingInterview/NewYearChaos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Algorithms/BFS/BfsSearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/WeightedJobSchedulingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/codingInterview/WeightedJobSchedulingKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/WeightedJobScheduling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/codingInterview/WeightedJobScheduling.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +75,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554823139791" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-design-patterns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android/Algorithms/Data_structures_and_algorithms/20-breadth-first-search/final" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4007353" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -95,15 +97,28 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.NewYearChaosKt">
-    <configuration name="KnapsackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.BfsSearchKt">
+    <configuration name="BfsSearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Greedy.KnapsackKt" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.BFS.BfsSearchKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Graph" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.BFS.Graph" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueCharactersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.String.UniqueCharactersKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WeightedJobSchedulingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BfsSearchKt" />
+        <item itemvalue="Kotlin.Graph" />
+        <item itemvalue="Kotlin.WeightedJobSchedulingKt" />
         <item itemvalue="Kotlin.NewYearChaosKt" />
         <item itemvalue="Kotlin.PowerEventKt" />
-        <item itemvalue="Kotlin.WeightedJobSchedulingKt" />
-        <item itemvalue="Kotlin.KnapsackKt" />
-        <item itemvalue="Kotlin.UniqueCharactersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -235,31 +237,31 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2635" y="283" key="#xdebugger.evaluate/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591714440747" />
-    <state x="2641" y="235" key="FileChooserDialogImpl" timestamp="1589346750857">
+    <state x="2641" y="235" key="FileChooserDialogImpl" timestamp="1591858589613">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="577" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587447455945" />
-    <state x="2641" y="235" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1589346750857" />
-    <state width="1877" height="396" key="GridCell.Tab.0.bottom" timestamp="1591723014597">
+    <state x="2641" y="235" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591858589613" />
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1591876179361">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state width="1877" height="396" key="GridCell.Tab.0.center" timestamp="1591723014597">
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591876179361" />
+    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1591876179361">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state width="1877" height="396" key="GridCell.Tab.0.left" timestamp="1591723014597">
+    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591876179361" />
+    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1591876179361">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state width="1877" height="396" key="GridCell.Tab.0.right" timestamp="1591723014597">
+    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591876179361" />
+    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1591876179361">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
+    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591876179361" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1591723014597">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -280,12 +282,12 @@
     </state>
     <state width="724" height="263" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585616155403" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state x="2266" y="0" key="SettingsEditor" timestamp="1591366659852">
+    <state x="2266" y="0" key="SettingsEditor" timestamp="1591874723270">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587447631902" />
     <state x="346" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1589349960185" />
-    <state x="2266" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591366659852" />
+    <state x="2266" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591874723270" />
     <state x="2038" y="207" width="724" height="747" key="find.popup" timestamp="1590908250698">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
