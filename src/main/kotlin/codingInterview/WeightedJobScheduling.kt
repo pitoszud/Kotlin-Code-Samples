@@ -1,6 +1,5 @@
 package codingInterview
 
-import java.util.*
 import kotlin.collections.ArrayList
 
 
@@ -18,15 +17,15 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
     }
 
     // 1. Set up a list that will hold optimum values for weights from 1 to limit.
-    val tArr = IntArray(jobs.size)
+    val optimumValArr = IntArray(jobs.size)
 
-    tArr[0] = jobs[0].weightedPrice
+    optimumValArr[0] = jobs[0].weightedPrice
 
     for (i in 1 until jobs.size) {
-        tArr[i] = jobs[i].weightedPrice.coerceAtLeast(tArr[i - 1])
+        optimumValArr[i] = jobs[i].weightedPrice.coerceAtLeast(optimumValArr[i - 1])
 
-        println("${jobs[i].weightedPrice}; ${tArr[i - 1]}")
-        println(tArr[i])
+        println("${jobs[i].weightedPrice}; ${optimumValArr[i - 1]}")
+        println(optimumValArr[i])
         println("---")
 
         for (j in i - 1 downTo 0) {
@@ -39,18 +38,16 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
             if (jobs[j].end <= jobs[i].start) {
                 println("end time j ${jobs[j].end} is <= than start time i ${jobs[i].start}")
 
-                tArr[i] = tArr[i].coerceAtLeast(jobs[i].weightedPrice + tArr[j])
+                optimumValArr[i] = optimumValArr[i].coerceAtLeast(jobs[i].weightedPrice + optimumValArr[j])
 
-                println("the new maximum sum of weights is ${jobs[i].weightedPrice} + ${tArr[j]} = ${tArr[i]}")
-
-                println("-----------")
+                describe(jobs, i, optimumValArr, j)
 
                 break
             }
         }
     }
     var maxVal = Int.MIN_VALUE
-    for (v in tArr) {
+    for (v in optimumValArr) {
         if (maxVal < v) {
             maxVal = v
         }
@@ -58,6 +55,20 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
     return maxVal
 }
 
+
+
+private fun describe(jobs: ArrayList<WeightJob>, i: Int, optimumValArr: IntArray, j: Int) {
+    println("the new maximum sum of weights is ${jobs[i].weightedPrice} + ${optimumValArr[j]} = ${optimumValArr[i]}")
+
+
+    optimumValArr.forEach {
+        print("${it}, ")
+    }
+
+    println("")
+
+    println("-----------")
+}
 
 
 fun main(args: Array<String>) {

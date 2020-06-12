@@ -1,7 +1,6 @@
 package Algorithms.BFS
 
 import java.util.*
-import kotlin.collections.ArrayList
 
 
 fun main(args: Array<String>) {
@@ -102,15 +101,15 @@ class Graph<T> {
  * Breadth first traversal leverages a [Queue] (FIFO).
  */
 fun <T> breadthFirstTraversal(graph: Graph<T>, startNode: T, maxDepth: Int = Int.MAX_VALUE): String {
-    //
-    // Setup.
-    //
 
     // Mark all the vertices / nodes as not visited. And keep track of sequence
     // in which nodes are visited, for return value.
     class VisitedMap {
         val traversalList = mutableListOf<T>()
 
+        /*
+        * creating a map representing visited nodes
+        * */
         val visitedMap = mutableMapOf<T, Boolean>().apply {
             for (node in graph.adjacencyMap.keys){
                 this[node] = false
@@ -119,8 +118,12 @@ fun <T> breadthFirstTraversal(graph: Graph<T>, startNode: T, maxDepth: Int = Int
 
         fun isNotVisited(node: T): Boolean = !visitedMap[node]!!
 
-        fun markVisitedAndAddToTraversalList(node: T) {
+        fun markVisited(node: T) {
             visitedMap[node] = true
+        }
+
+
+        fun addToTraversalList(node: T){
             traversalList.add(node)
         }
     }
@@ -136,6 +139,7 @@ fun <T> breadthFirstTraversal(graph: Graph<T>, startNode: T, maxDepth: Int = Int
     // Create a queue for BFS.
     class Queue {
         val deck: Deque<T> = ArrayDeque<T>()
+
         fun add(node: T, depth: Int) {
             // Add to the tail of the queue.
             deck.add(node)
@@ -170,8 +174,18 @@ fun <T> breadthFirstTraversal(graph: Graph<T>, startNode: T, maxDepth: Int = Int
 
         if (currentDepth <= maxDepth) {
             if (visitedMap.isNotVisited(currentNode)) {
-                // Mark the current node visited and add to traversal list.
-                visitedMap.markVisitedAndAddToTraversalList(currentNode)
+
+                // Mark the current node visited
+                println("current node: ${currentNode.toString()} added to visited map")
+                visitedMap.markVisited(currentNode)
+
+                // add to traversal list.
+                println("current node: ${currentNode.toString()} added to traversal list")
+                visitedMap.traversalList.forEach {
+                    print("$it, ")
+                }
+                visitedMap.addToTraversalList(currentNode)
+
                 // Add nodes in the adjacency map.
                 queue.addAdjacentNodes(currentNode, /* depth= */
                     currentDepth + 1)
