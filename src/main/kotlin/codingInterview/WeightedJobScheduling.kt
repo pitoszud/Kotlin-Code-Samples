@@ -36,7 +36,8 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
             * */
 
             if (jobs[j].end <= jobs[i].start) {
-                println("end time j ${jobs[j].end} is <= than start time i ${jobs[i].start}")
+
+                println("end time j ${jobs[j].end}, (${jobs[j].start}-${jobs[j].end}) is <= than start time i ${jobs[i].start}, (${jobs[i].start}-${jobs[i].end})")
 
                 optimumValArr[i] = optimumValArr[i].coerceAtLeast(jobs[i].weightedPrice + optimumValArr[j])
 
@@ -58,7 +59,7 @@ fun maximum(jobs: ArrayList<WeightJob>): Int {
 
 
 private fun describe(jobs: ArrayList<WeightJob>, i: Int, optimumValArr: IntArray, j: Int) {
-    println("the new maximum sum of weights is ${jobs[i].weightedPrice} + ${optimumValArr[j]} = ${optimumValArr[i]}")
+    println("the new maximum sum of weights is ${jobs[i].weightedPrice} for (${jobs[j].start}-${jobs[j].end}) + ${optimumValArr[j]} for (${jobs[i].start}-${jobs[i].end}) = ${optimumValArr[i]}")
 
 
     optimumValArr.forEach {
