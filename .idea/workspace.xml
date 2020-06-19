@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/State/GamingPad.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Recursion/CounInt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingInterview/WeightedJobSchedulingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/codingInterview/WeightedJobSchedulingKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/WeightedJobScheduling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/codingInterview/WeightedJobScheduling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/BasicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Recursion/BasicKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/IntRecursionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Recursion/RecursionA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Recursion/RecursionA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Recursion/Basic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Recursion/Basic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Recursion/IntRecursions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Recursion/Npower.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,54 +102,54 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.WeightedJobSchedulingKt">
-    <configuration name="BfsSearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.StatePatternKt">
+    <configuration name="BasicKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.BFS.BfsSearchKt" />
+      <option name="MAIN_CLASS_NAME" value="Recursion.BasicKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="CounIntKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.BFS.Graph" />
+      <option name="MAIN_CLASS_NAME" value="Recursion.CounIntKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewYearChaosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="NpowerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="codingInterview.NewYearChaosKt" />
+      <option name="MAIN_CLASS_NAME" value="Recursion.NpowerKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerEventKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="StatePatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ObserverB.PowerEventKt" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.State.StatePatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StatePatternKt" />
+        <item itemvalue="Kotlin.CounIntKt" />
+        <item itemvalue="Kotlin.NpowerKt" />
+        <item itemvalue="Kotlin.BasicKt" />
         <item itemvalue="Kotlin.WeightedJobSchedulingKt" />
-        <item itemvalue="Kotlin.BfsSearchKt" />
-        <item itemvalue="Kotlin.Graph" />
-        <item itemvalue="Kotlin.NewYearChaosKt" />
-        <item itemvalue="Kotlin.PowerEventKt" />
       </list>
     </recent_temporary>
   </component>
@@ -241,26 +247,26 @@
     </state>
     <state x="577" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587447455945" />
     <state x="2641" y="235" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591858589613" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1592204479100">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1592443575451">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592204479100" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1592204479100">
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592443575451" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1592443575451">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592204479100" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1592204479100">
+    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592443575451" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1592443575451">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592204479100" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1592204479100">
+    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592443575451" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1592443575451">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592204479100" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1592443575451" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1591723014597">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>

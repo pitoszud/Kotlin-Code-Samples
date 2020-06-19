@@ -26,5 +26,6 @@ class RecursionA{
 fun main(args: Array<String>) {
     val rec = RecursionA()
     rec.iterateAndDisplayAtoB(10)
+    println("")
     rec.iterateAndDisplayBtoA(10)
 }
