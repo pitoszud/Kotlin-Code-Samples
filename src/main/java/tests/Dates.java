@@ -7,14 +7,14 @@
  */
 package tests;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Period;
+import org.jetbrains.annotations.NotNull;
+
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.Temporal;
+import java.util.Date;
 
 /**
  *
@@ -40,9 +40,27 @@ public class Dates {
         formatDateTime(ld1, ldt1);
         formatDateTimeCustom(ldt1);
         formatDateTimeParse();
+
+        Date todayDate = new Date();
+        convertDateToLocalDate(todayDate);
         
         getDMY(ld1);
         
+    }
+
+
+    private static void convertDateToLocalDate(@NotNull Date date){
+        DateTimeFormatter dtf = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+
+        LocalDate startLocalDate1 = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate(); // also toLocalDateTime()
+        LocalDate startLocalDate2 = Instant.ofEpochMilli(date.getTime()).atZone(ZoneId.systemDefault()).toLocalDate(); // also toLocalDateTime()
+        LocalDate startLocalDate3 = new java.sql.Date(date.getTime()).toLocalDate(); // also toLocalDateTime()
+
+        System.out.println("Converted from Date to LocalDate:");
+        System.out.println(dtf.format(startLocalDate1));
+        System.out.println(dtf.format(startLocalDate2));
+        System.out.println(dtf.format(startLocalDate3));
+
     }
     
     private static void formatDateTime(LocalDate ld1, LocalDateTime ldt1){

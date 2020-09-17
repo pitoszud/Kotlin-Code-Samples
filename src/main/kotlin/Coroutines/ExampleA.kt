@@ -1,7 +1,6 @@
 package Coroutines
 
 import kotlinx.coroutines.*
-import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.produce
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
@@ -341,7 +340,7 @@ fun concurrentScope() = runBlocking{
         launch { fetchWeather(1.12, 0.15) } // concurrent
         launch { fetchWeather(2.34, 4.61) } // concurrent
 
-        async { fetchUserExtraData(userId) } // blocking
+         async { fetchUserExtraData(userId) } // blocking
 
     }
 }
