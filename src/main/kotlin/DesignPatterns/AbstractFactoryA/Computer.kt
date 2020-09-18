@@ -1,23 +1,25 @@
-
+// 0    Component
 // 1a   Abstract Item
 // 1b   Concrete Items
 
+data class Component(val name: String)
+
 interface Toolbar{
-    fun getToolbarComponents()
+    fun getToolbarComponents(): Component
 }
 
 
 class DarkToolbar: Toolbar{
-    override fun getToolbarComponents(){
-        println("getting dark toolbar components")
+    override fun getToolbarComponents(): Component{
+        return Component("dark toolbar components")
     }
 
 }
 
 
 class LightToolbar: Toolbar{
-    override fun getToolbarComponents(){
-        println("getting light toolbar components")
+    override fun getToolbarComponents(): Component{
+        return Component("light toolbar components")
     }
 
 }
@@ -27,20 +29,20 @@ class LightToolbar: Toolbar{
 // 2b   Concrete Items
 
 interface Drawer{
-    fun getDrawerComponents()
+    fun getDrawerComponents(): Component
 }
 
 
 class DarkDrawer: Drawer{
-    override fun getDrawerComponents() {
-        println("getting dark drawer components")
+    override fun getDrawerComponents(): Component {
+        return Component("dark drawer components")
     }
 }
 
 
 class LightDrawer: Drawer{
-    override fun getDrawerComponents() {
-        println("getting light drawer components")
+    override fun getDrawerComponents(): Component {
+        return Component("light drawer components")
     }
 }
 
