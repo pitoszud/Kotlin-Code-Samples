@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AdapterD/Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AdapterD/MyAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AdapterD/RecyclerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Generics/MobilePhoneGen1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AbstractFactoryA/Computer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AbstractFactoryA/Computer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Core/Generics/GenT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Generics/GenT.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +95,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554823139791" />
@@ -77,7 +103,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4007353" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -171,18 +197,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -201,83 +216,62 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2671" y="296" key="#com.intellij.ide.util.MemberChooser" timestamp="1593068459790">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="751" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1602583804544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2671" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1593068459790" />
-    <state x="2560" y="308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591366566604">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="751" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602583804544" />
+    <state x="692" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602844036894">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2560" y="308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591366566604" />
-    <state x="2538" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593067507309">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="692" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602844036894" />
+    <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602844038814">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2538" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1593067507309" />
-    <state x="2635" y="283" key="#xdebugger.evaluate" timestamp="1591714440747">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602844038814" />
+    <state x="625" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602869765580">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2635" y="283" key="#xdebugger.evaluate/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591714440747" />
-    <state x="2641" y="235" key="FileChooserDialogImpl" timestamp="1591858589613">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state x="2641" y="235" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591858589613" />
+    <state x="625" y="43" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602869765580" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1599758267686">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1599758267686">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
     <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1599758267686">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
     <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1599758267686">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591574921048" />
     <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1591723014597">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602843985040">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1591723014597">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1591723014597">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1591723014597">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591723014597" />
-    <state x="2266" y="0" key="SettingsEditor" timestamp="1591874723270">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state x="2266" y="0" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1591874723270" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602843985040" />
     <state x="515" y="217" width="1108" height="536" key="find.popup" timestamp="1599768235030">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="515" y="217" width="1108" height="536" key="find.popup/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599768235030" />
+    <state x="803" y="291" key="refactoring.ChangeSignatureDialog" timestamp="1602869754989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602869754989" />
     <state x="616" y="270" width="840" height="678" key="run.anything.popup" timestamp="1599661153002">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
