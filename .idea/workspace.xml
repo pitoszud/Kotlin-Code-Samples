@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AdapterD/Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AdapterD/MyAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AdapterD/RecyclerView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Generics/MobilePhoneGen1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/SwitchContext.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Core/Generics/GenT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Generics/GenT.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +117,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dates">
+  <component name="RunManager" selected="Kotlin.SwitchContextKt">
     <configuration name="Dates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.Dates" />
       <module name="kotlinStudy.main" />
@@ -161,19 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NpowerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Recursion.NpowerKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StatePatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
@@ -187,13 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwitchContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Coroutines.Flows.SwitchContextKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SwitchContextKt" />
         <item itemvalue="Application.Dates" />
         <item itemvalue="Kotlin.MinimumSwapsTwoKt" />
         <item itemvalue="Kotlin.StatePatternKt" />
         <item itemvalue="Kotlin.CounIntKt" />
-        <item itemvalue="Kotlin.NpowerKt" />
       </list>
     </recent_temporary>
   </component>
