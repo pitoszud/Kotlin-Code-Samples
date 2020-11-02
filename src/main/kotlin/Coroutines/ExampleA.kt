@@ -7,7 +7,7 @@ import java.util.concurrent.Executors
 import kotlin.coroutines.CoroutineContext
 
 
-fun main() {
+fun main() = runBlocking {
     //blockingMainA()
     //blockingBackgroundA()
     //blockingGlobal()
@@ -23,7 +23,10 @@ fun main() {
     //yieldIterator()
     //invokeSuspendingFunctions_concurrently()
     //invokeSuspendingFunctions_non_concurrently()
-    invokeSuspendingFunctions_concurrently_lazy()
+    //invokeSuspendingFunctions_concurrently_lazy()
+    //awaitAllExample1()
+    awaitAllExample2()
+
 }
 
 
@@ -345,6 +348,40 @@ fun concurrentScope() = runBlocking{
     }
 }
 
+
+
+/**
+ * coroutineScope() is an alias of withContext(this.coroutineContext)
+ * */
+suspend fun awaitAllExample1() = coroutineScope {
+    var fullStock = 0
+    awaitAll(
+        async {
+            fullStock += getStock1(1000L) // 5500
+        },
+        async {
+            fullStock += getStock2(4000L) //3500
+        }
+    )
+
+    print("awaitAllExample2 $fullStock \n")
+}
+
+/**
+ *  withContext(this.coroutineContext) is an alias of coroutineScope()
+ * */
+suspend fun awaitAllExample2() = coroutineScope {
+
+    withContext(Dispatchers.Default){
+        val stockDef1 = async{ getStock1(1000L)}.await() // concurrent
+        val stockDef2 = async { getStock2(4000L) }.await() // concurrent
+
+        val fullStock = stockDef1 + stockDef2
+
+        print("awaitAllExample2 $fullStock \n") // 5500 + 3500
+    }
+}
+
 /**
 *
  * withContext is the same as async(Dispatcher)
@@ -493,6 +530,20 @@ suspend fun fetchUserExtraData(userId: String): String{
     println("feaching extra data for user $userId...")
     delay(1000)
     return "Extra data for user: $userId returned ;"
+}
+
+
+private suspend fun getStock1(delay: Long) : Int {
+    delay(delay)
+    return 5500
+}
+
+
+
+
+private suspend fun getStock2(delay: Long) : Int {
+    delay(delay)
+    return 3500
 }
 
 
