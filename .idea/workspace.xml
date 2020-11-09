@@ -23,35 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Coroutines/Flows/StateFlowExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Core/Other/SamExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$awaitAllExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$resultContext3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$userId$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1$userId$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingAsyncAwait$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1$invokeSuspend$$inlined$CoroutineExceptionHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$blockingWithCancelAndException$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserExtraData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchUserExtraData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchWeather$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$fetchWeather$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayed$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$printDelayedInMain$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$produceNames$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$produceNames$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$multiUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$multiUser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$names$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldIterator$names$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldSequence$nameSequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt$yieldSequence$nameSequence$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/ExampleAKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1$invokeSuspend$$inlined$collect$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1$invokeSuspend$$inlined$collect$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1$invokeSuspend$$inlined$map$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1$invokeSuspend$$inlined$map$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1$invokeSuspend$$inlined$map$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1$invokeSuspend$$inlined$map$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Coroutines/Flows/SwitchContext$collector$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +123,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.StateFlowExampleKt">
+  <component name="RunManager" selected="Kotlin.SamExampleKt">
     <configuration name="kotlinStudy [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,14 +181,14 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExampleAKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="SamExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Coroutines.ExampleAKt" />
+      <option name="MAIN_CLASS_NAME" value="Core.Other.SamExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,15 +209,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SamExampleKt" />
         <item itemvalue="Kotlin.StateFlowExampleKt" />
         <item itemvalue="Gradle.kotlinStudy [wrapper]" />
         <item itemvalue="Gradle.kotlinStudy [test]" />
         <item itemvalue="Gradle.kotlinStudy [check]" />
-        <item itemvalue="Kotlin.ExampleAKt" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -287,34 +261,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603800501392" />
+    <state x="516" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604882023601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1604882023601" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1604055807033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604055807033" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604414111579">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1604883020759">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604883020759" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604414111579" />
     <state width="1877" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604414111579">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1604883020759">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604883020759" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604414111579" />
     <state width="1877" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
     <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604414111579">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1604883020758">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604883020758" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604414111579" />
     <state width="1877" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
     <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
     <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604414111579">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1604883020759">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604883020759" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604414111579" />
     <state width="1877" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
     <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1599758267686" />
