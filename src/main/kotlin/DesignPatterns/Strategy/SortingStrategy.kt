@@ -1,0 +1,13 @@
+package DesignPatterns.Strategy
+
+interface SortingStrategy {
+    // https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ5NDZiMTM3NzM3Yjk3MzczOGU1Mjg2YzIwOGI2NmU3YTM5ZWU3YzEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MDUxODA0OTksImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNDAzMDExOTM1OTMyNzk2NDU4NCIsImVtYWlsIjoicGl0b3MwMDdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJQYXRyeWsgSmFrdWJpayIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHZ1hfZlNGRnlZYTE2TWluUGlIUWRwNU42THZhOHQ0VllrNEs3OUtpdz1zOTYtYyIsImdpdmVuX25hbWUiOiJQYXRyeWsiLCJmYW1pbHlfbmFtZSI6Ikpha3ViaWsiLCJpYXQiOjE2MDUxODA3OTksImV4cCI6MTYwNTE4NDM5OSwianRpIjoiOWEzYmMxY2FhZTAzNjIzZWNhODRmZDI3ZGVmMDM3MTRmYmY2ZTg1YyJ9.J_qW3Pt8OInYmEPGcCY9QX9gQzvdrny8HPdkjbvdneOATYhE8uiLGXw2fWRN1-2KQEjuoDM1RycQRLKs9_JjZLntQqfp7e5Mh5eH4iifdHU9Yc4igExRff43QRI-oD4tIhWJSyC67tMVZS6naPOE_EF5BnAGr7SAX6u8P6-Fta8BHi1WuJo4ZlJ6bgPuxTuVV-oxlAsjW9kQbUpuS8JwKgm_8Ll1qWutSNH_l20avlIR8leaQKjZZ-DpdJwykIBJY4QwaMdxGJUSVmdelAiRZPhx3ljLt6m9syBHBdRLgXC4KshmRMZnfXP_H_zsUJNrCrtOyz8H2ha8TWn4me44VA
+    // https://www.baeldung.com/java-strategy-pattern
+
+    /*
+    * State can be considered as an extension of Strategy.
+    * Both patterns are based on composition: they change the behavior of the context by delegating some work to helper objects.
+    * Strategy makes these objects completely independent and unaware of each other.
+    * However, State doesn’t restrict dependencies between concrete states, letting them alter the state of the context at will.
+    * */
+}
