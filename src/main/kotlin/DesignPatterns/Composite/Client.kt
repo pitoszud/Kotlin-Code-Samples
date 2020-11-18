@@ -20,3 +20,45 @@ fun main() {
         editLayout.viewCount
     )
 }
+
+// Component
+abstract class View(val _viewName: String, val _viewCount: Int){
+
+    abstract fun add(view: View)
+    abstract fun remove(view: View)
+}
+
+
+// Leaf
+class ViewComponent(private val viewComponentName: String, componentCount: Int = 1): View(viewComponentName, componentCount){
+
+    // View component has an empty implementation, since it is the smallest unit possible.
+    override fun add(view: View) {
+
+    }
+
+    override fun remove(view: View) {
+
+    }
+
+
+}
+
+// Composite
+class Layout(val viewName: String, val viewCount: Int) : View(viewName, viewCount){
+
+    var viewList = mutableListOf<View>()
+
+    override fun add(view: View) {
+        viewList.add(view)
+    }
+
+    override fun remove(view: View) {
+        viewList.remove(view)
+    }
+
+    fun getViews(): MutableList<View> = viewList
+
+    fun getCount(): Int = viewList.sumBy { it._viewCount }
+
+}

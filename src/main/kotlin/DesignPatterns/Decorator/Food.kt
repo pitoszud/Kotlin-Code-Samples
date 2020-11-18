@@ -3,7 +3,7 @@ package DesignPatterns.Decorator
 
 
 abstract class Pasta {
-    var description = "Unknown Pasta"
+    var description = "Pasta"
     open fun prepare(): String = description
 
     abstract fun price(): Double
@@ -53,5 +53,7 @@ fun main() {
 
     println(pasta.prepare())
     println("\nTotal price: £${pasta.price()}")
-    
+
+    // Service charge (2.5) + Spagetti (13.5) + Lasagne (15.9) + Carbonara (15.4)
+    // Total price: £47.3
 }
