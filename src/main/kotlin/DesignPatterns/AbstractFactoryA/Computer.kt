@@ -1,8 +1,9 @@
 // 0    Component
+data class Component(val name: String)
+
+
 // 1a   Abstract Item
 // 1b   Concrete Items
-
-data class Component(val name: String)
 
 interface Toolbar{
     fun getToolbarComponents(): Component
