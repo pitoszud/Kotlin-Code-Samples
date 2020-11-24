@@ -23,22 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/FactoryMethod/Email.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/FactoryMethod/Sample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/AbstractThemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/AbstractThemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Component.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ComputerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ComputerKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DarkDrawer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DarkDrawer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DarkThemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DarkThemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DarkToolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DarkToolbar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Composite/DocumentKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/Composite/DocumentKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FactoryProvider$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FactoryProvider$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FactoryProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FactoryProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LightDrawer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/LightDrawer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LightThemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/LightThemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LightToolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/LightToolbar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AbstractFactoryA/Computer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/AbstractFactoryA/Computer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/AdvancedNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/AdvancedNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/AdvancedNotificationCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/EmailKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/EmailKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/Notification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/NotificationCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/SimpleNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/SimpleNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesignPatterns/FactoryMethod/SimpleNotificationCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/FactoryMethod/Email.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/FactoryMethod/Email.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +79,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -271,10 +265,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602844038814" />
-    <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605784664013">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606130790670">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605784664013" />
+    <state x="625" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1606130790670" />
     <state x="516" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604882023601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,40 +278,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605810033639" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1605908820541">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1606145723977">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604883020759" />
     <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605813006180" />
     <state width="1877" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1605908820541" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1606145723977" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1200/1920.0.1920.1200@0.0.1920.1200" timestamp="1605268646357" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1605908820541">
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1606145723977">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604883020759" />
     <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605813006180" />
     <state width="1877" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1605908820541" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1606145723977" />
     <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1200/1920.0.1920.1200@0.0.1920.1200" timestamp="1605268646357" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1605908820541">
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1606145723977">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604883020758" />
     <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605813006180" />
     <state width="1877" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1605908820541" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1606145723977" />
     <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1200/1920.0.1920.1200@0.0.1920.1200" timestamp="1605268646357" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1605908820541">
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1606145723977">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604883020759" />
     <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605813006180" />
     <state width="1877" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860/-1920.0.1920.1040@1920.0.1440.860" timestamp="1604085097779" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1605908820541" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1606145723977" />
     <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1599733815497" />
     <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1200/1920.0.1920.1200@0.0.1920.1200" timestamp="1605268646357" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604414111580">
