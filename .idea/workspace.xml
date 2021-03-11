@@ -23,8 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sandpit/SandpitB.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/XorExampleA.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Generics/MobilePhoneGen1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Generics/MobilePhoneGen1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/Cpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/Cpu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/Ram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/Ram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/RansomwareVirus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/RansomwareVirus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +129,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryBasicKt">
+  <component name="RunManager" selected="Application.XorExampleAKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -146,32 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoodKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Decorator.FoodKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MealKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlinStudy.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Decorator.MealKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MessageKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlinStudy.main" />
       <option name="VM_PARAMETERS" />
@@ -180,6 +162,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Decorator.MessageKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tss.QuestionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,8 +193,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XorExampleAKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bit_manipulation.XorExampleAKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XorExampleAKt" />
+        <item itemvalue="Application.QuestionKt" />
         <item itemvalue="Application.BinaryBasicKt" />
         <item itemvalue="Application.StateFlowExampleKt" />
       </list>
