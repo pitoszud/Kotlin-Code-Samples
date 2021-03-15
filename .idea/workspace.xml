@@ -23,16 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9149c030-dd76-4cc0-8dc2-007552638895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sandpit/SandpitB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/XorExampleA.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/BinaryExtensions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/Cpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/Cpu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/MobilePhoneGen2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/Ram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/Ram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Generics/RansomwareVirus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Generics/RansomwareVirus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlinStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/bit_manipulation/BinaryBasicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/bit_manipulation/BinaryBasicKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/bit_manipulation/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/bit_manipulation/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/bit_manipulation/XorExampleAKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/bit_manipulation/XorExampleAKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/BinaryBasic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/BinaryBasic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/XorExampleA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/bit_manipulation/XorExampleA.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

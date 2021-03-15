@@ -45,10 +45,6 @@ fun booleanArray2Byte(bytes: BooleanArray): Byte {
 }
 
 
-fun Int.to32bitString(): String =
-    Integer.toBinaryString(this).padStart(Int.SIZE_BITS, '0')
-
-
 @ExperimentalUnsignedTypes
 fun main() {
     val questions = listOf<Question>(
