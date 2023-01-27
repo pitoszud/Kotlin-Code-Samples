@@ -1,6 +1,5 @@
-package codingInterview
+package coding_challenges
 
-import FunctionalProgramming.DSLs.ifNotNull
 import kotlin.collections.*
 import kotlin.io.*
 import kotlin.text.*

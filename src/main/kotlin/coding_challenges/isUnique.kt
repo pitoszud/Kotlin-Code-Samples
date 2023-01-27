@@ -1,4 +1,4 @@
-package codingInterview
+package coding_challenges
 
 
 fun isUniqueString(str: String): Boolean {

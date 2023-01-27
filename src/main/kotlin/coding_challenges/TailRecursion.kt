@@ -1,4 +1,4 @@
-package codingInterview
+package coding_challenges
 
 /*
 * fac n = go n 1

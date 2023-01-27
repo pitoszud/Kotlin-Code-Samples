@@ -1,4 +1,4 @@
-package codingInterview
+package coding_challenges
 
 fun main(args: Array<String>) {
     oneEditInsert("Pattryk", "Patryk")

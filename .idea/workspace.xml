@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff077bd6-fb2b-4d7d-9dd3-98e43f1e3c0e" name="Default Changelist" comment="" />
+    <list default="true" id="ff077bd6-fb2b-4d7d-9dd3-98e43f1e3c0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/FactoryMethod/Email.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DesignPatterns/FactoryMethod/Email.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/ArrayLeftRotation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/CompressString.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/Counting_Valleys.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/InsDelChkOneEdit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/MinimumSwapsTwo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/NewYearChaos.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/TailRecursion.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/TwoDArray.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/WeightedJobScheduling.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/codingInterview/isUnique.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,15 +31,49 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Kotlin-Java-Samples" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1teys802eyKB1aQ3bKULMc6qyPh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Develop/Kotlin-Code-Samples&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,4 +1,4 @@
-package codingInterview
+package coding_challenges
 
 fun main() {
     val nums = arrayListOf(2, 3, 4, 1, 5)

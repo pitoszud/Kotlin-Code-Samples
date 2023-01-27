@@ -1,6 +1,5 @@
 package DesignPatterns.FactoryMethod
 
-import codingInterview.fac
 import java.text.SimpleDateFormat
 import java.util.*
 

@@ -1,4 +1,4 @@
-package codingInterview
+package coding_challenges
 
 import kotlin.collections.*
 import kotlin.io.*
